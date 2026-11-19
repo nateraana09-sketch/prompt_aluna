@@ -1,0 +1,56 @@
+/* Fase 4 · mecánicas sobre lenguaje y escenas editoriales, nunca objetos sagrados. */
+.mist-layer {animation:none!important;transform:none!important}
+.playground {padding:26px 18px;margin:28px 0;background:#d8d7bd;border:1px solid #aeb594;border-radius:26px 65px 26px 26px;scroll-margin-top:86px}
+.playground h3 {font:400 32px/1.12 Georgia,serif;margin:12px 0 18px;letter-spacing:-.025em}
+.playground>p {font-size:15px;line-height:1.6;margin:14px 0}
+.playground .eyebrow {font-size:10px}
+.play-instruction {padding:12px 0;border-block:1px solid #b8bca0;color:#42563c}
+.play-board {margin:20px 0;min-width:0}
+.play-feedback {border-left:3px solid #748a51;padding:6px 0 6px 14px;min-height:72px}
+.play-feedback:empty {display:none}
+.play-primary {display:block;width:100%;background:#36523b;color:#fff1d9;font-size:14px;font-weight:600;line-height:1.4;border-radius:15px;padding:14px 16px;min-height:48px;margin:14px 0}
+.playground button {touch-action:manipulation;min-height:44px;font-family:inherit}
+.playground>button:not(.play-primary) {font-size:14px;text-decoration:underline;text-underline-offset:4px;padding:10px 0;display:block}
+.play-source {font-size:12px!important;color:#4b5b42;margin-top:20px!important}
+.phrase-tray {display:flex;flex-wrap:wrap;gap:8px;min-height:50px}
+.phrase {display:block;width:100%;padding:14px 12px;background:#f0e4cc;border:1px solid #a6b18f;border-radius:14px;font-size:14px;text-align:left;line-height:1.4;touch-action:none!important;cursor:grab}
+.phrase[aria-pressed=true] {outline:3px solid #78612e;outline-offset:2px;background:#e8cfa0}
+.drop-zones {display:grid;gap:12px;margin-top:20px}
+.drop-zone {padding:12px;min-height:98px;border:1px dashed #7f9067;border-radius:18px;background:#c9d0ae}
+.drop-zone>button:first-child {display:block;font-size:17px;font-weight:600;min-height:44px;margin-bottom:6px;width:100%;text-align:left}
+.drop-zone .phrase {margin:8px 0}
+.drop-zones[data-compared=true] {border-left:3px solid #476442;padding-left:8px}
+.drag-ghost {position:fixed!important;transform:translate(-50%,-50%);pointer-events:none;z-index:10000;max-width:240px;padding:14px;background:#f6e8ca;box-shadow:0 8px 20px #22392140;border-radius:12px;font-size:14px;opacity:.95}
+.sequence-piece {display:grid;grid-template-columns:1fr auto auto;gap:6px;align-items:center;padding:12px 8px;background:#ede1c8;border:1px solid #a8b28d;border-radius:16px;margin:12px 0;position:relative}
+.sequence-handle {font-size:14px;line-height:1.4;text-align:left;touch-action:none!important;cursor:grab;padding:8px 4px}
+.sequence-piece>button:not(:first-child) {font-size:12px;background:#d3d6b7;border-radius:12px;padding:8px}
+.sequence-piece>button:disabled {opacity:.4;cursor:default}
+.play-board[data-connected=true] .sequence-piece:not(:last-child)::after {content:'↓';position:absolute;bottom:-23px;left:50%;z-index:1;color:#36543b;background:#d8d7bd;font-size:20px}
+.story-illustration {border-radius:70px 14px 14px 14px;min-height:110px;display:flex;align-items:flex-end;padding:18px;background:#bec9a6 url('../img/elemento-palabra.svg') no-repeat right 18px center;background-size:100px;font:italic 18px Georgia,serif;padding-right:105px}
+.story-text {font-size:17px;line-height:1.6;margin:22px 0}
+.story-choice {display:block;width:100%;text-align:left;border:1px solid #a6b28d;background:#eee2cb;border-radius:16px;padding:16px;margin:10px 0;font-size:14px;line-height:1.5}
+.story-choice::after {content:' →'}
+.story-ending {font-size:15px;line-height:1.6;padding:18px;background:#c4ceaa;border-radius:18px}
+.context-poster {position:relative;display:grid;grid-template-columns:repeat(3,1fr);min-height:220px;overflow:hidden;border-radius:18px;background:linear-gradient(135deg,#53694f,#9da879);touch-action:pan-y;cursor:crosshair;isolation:isolate}
+.poster-zone {font-size:10px;letter-spacing:.06em;writing-mode:vertical-rl;display:grid;place-items:center;color:#e5dfc2;border-right:1px solid #ffffff40;padding:18px 8px;transition:background .2s}
+.poster-zone[data-revealed=true] {background:#cfb27c66;color:#fff6db;font-weight:700}
+.context-lens {position:absolute;width:100px;height:100px;left:var(--lens,10%);top:50%;border:4px solid #f7e9c6;border-radius:50%;transform:translate(-50%,-50%);box-shadow:0 0 0 500px #1b35243b;pointer-events:none}
+.context-lens::after {content:'';position:absolute;width:7px;height:60px;background:#f7e9c6;transform:rotate(-35deg);top:80%;left:88%;border-radius:5px}
+.play-board>label {display:block;font-size:14px;margin:16px 0 8px}
+.play-board>input[type=range] {width:100%;height:48px;accent-color:#3b5841;cursor:ew-resize}
+.play-board>input[type=range]+p {font-size:13px;color:#4b5d40}
+.guide-options {border-top:1px solid #aeb998;margin-top:18px;padding-top:10px}
+.guide-options>summary {font-size:13px;font-weight:500;line-height:1.5}
+.guide-options p {font-size:12px;line-height:1.7}
+.guide-row {display:flex;align-items:center;gap:10px}
+.guide-row>img {width:95px;height:90px;object-fit:contain}
+.guide-row button {padding:9px;background:#e8dcc1;border:1px solid #a6b68f;border-radius:12px;font-size:12px;line-height:1.4}
+.previous-reading {margin:22px 0;border-top:1px solid #b3bb9c}
+.previous-reading>summary {font-size:14px;font-weight:500}
+.device-content {display:block;width:414px;height:100%;border:0;background:#e9dfcc}
+body.desktop-presentation {margin:0;max-width:none;padding:32px 0 18px;background:radial-gradient(ellipse at 50% 30%,#e6ddc8,#a9b398);min-height:100dvh;display:flex;flex-direction:column;align-items:center;gap:12px}
+.device-shell {width:438px;max-width:100%;height:calc(100dvh - 98px);max-height:940px;min-height:560px;border:12px solid #303b32;border-radius:48px;overflow:hidden;box-shadow:0 25px 65px #263a3c44,0 0 0 2px #b9b8a3;position:relative;background:#303b32}
+.device-shell::before {content:'';position:absolute;z-index:100;top:0;left:calc(50% - 38px);width:76px;height:10px;background:#303b32;border-radius:0 0 10px 10px;pointer-events:none}
+.device-caption {font-size:12px;color:#334a35;margin:4px 0;text-align:center}
+@media(max-width:899px) {.device-shell{width:100%;border:0;border-radius:0;height:100dvh;max-height:none;min-height:0}.device-content{width:100%}body.desktop-presentation{padding:0;gap:0}.device-caption,.device-shell::before{display:none}}
+@media(prefers-reduced-motion:reduce) {.playground *{transition:none!important;animation:none!important}}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Explorar · Prototipo de bienestar</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/territorio.css">
+
+  <link rel="stylesheet" href="assets/css/aprendizaje.css">
+  <link rel="stylesheet" href="assets/css/experiencia.css">
+  <link rel="stylesheet" href="assets/css/participacion.css">
+  <script src="assets/js/presentacion.js" defer></script>
+</head>
+<body>
+
+<header class="app-header">
+  <div class="hdr-marca" aria-hidden="true">
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+      <path d="M9 1C5 1 2 4 2 8c0 5 7 9 7 9s7-4 7-9c0-4-3-7-7-7z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+      <circle cx="9" cy="8" r="2.5" stroke="currentColor" stroke-width="1.4"/>
+    </svg>
+  </div>
+  <div class="hdr-txt">
+    <h1>El territorio vivo</h1>
+    <p>Psicoeducación intercultural</p>
+  </div>
+</header>
+
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+<main class="container" id="contenido">
+<section class="explore-intro"><p class="eyebrow">Observa · Explora · Comprende</p><h2>El territorio vivo<span>.</span></h2><p>Acércate a un elemento. Descubre una experiencia y otra forma de mirarla.</p></section>
+        <nav class="ejes-nav" aria-label="Seleccionar eje"><button data-eje="1" aria-pressed="true"><span>01</span><span>Reconocer</span></button><button data-eje="2" aria-pressed="false"><span>02</span><span>Cuidar</span></button><button data-eje="3" aria-pressed="false"><span>03</span><span>Apoyo</span></button><button data-eje="4" aria-pressed="false"><span>04</span><span>Contexto</span></button></nav><section class="territorio" aria-label="Exploración del territorio">
+          <div class="escena-wrap" id="territorio" data-ambiente="bosque">
+            <img id="paisaje" class="paisaje" src="assets/img/sierra-nevada-taggen.jpg" alt="Bosque y cumbres de la Sierra Nevada de Santa Marta, fotografía de Taggen" width="1280" height="960" fetchpriority="high">
+            <div class="scene-shade" aria-hidden="true"></div><div class="mist-layer" aria-hidden="true"></div>
+            <div class="scene-top"><span class="scene-kicker">OBSERVAR · COMPRENDER</span><button id="movimiento" class="scene-small" aria-pressed="false">Transiciones: activadas</button></div>
+            <div id="hotspots" role="group" aria-label="Puntos de exploración"></div>
+            <div class="scene-caption"><span id="scene-number">01 / 03</span><h3 id="scene-title">Entre bosque y neblina</h3><p id="scene-description">Elige un elemento del paisaje y descubre una nueva mirada.</p></div>
+            <section class="panel-detalle" id="panel-detalle" aria-labelledby="pd-titulo" hidden>
+              <button class="pd-cierre" id="panel-cierre" aria-label="Cerrar detalle y volver al paisaje">×</button>
+              <p class="pd-eyebrow" id="pd-eyebrow"></p><h3 class="pd-titulo" id="pd-titulo" tabindex="-1"></h3>
+              <p class="pd-kogui" id="pd-kogui"></p><div class="pd-tabs" id="pd-tabs" role="group" aria-label="Lecturas del concepto"></div><div class="pd-cuerpo" id="pd-cuerpo"></div>
+            </section>
+          </div>
+          <div class="scene-tools"><button id="recorrer" class="text-link">Sugerir otra mirada ↗</button><a class="text-link" href="#indice">Buscar un concepto ↓</a></div><div class="ambientes" aria-label="Cambiar paisaje"><button data-scene="bosque" aria-pressed="true"><span>01</span> Bosque y neblina</button><button data-scene="flores" aria-pressed="false"><span>02</span> Flores y luz</button><button data-scene="rio" aria-pressed="false"><span>03</span> Junto al río</button></div>
+          <p class="landscape-credit">Sierra Nevada: Taggen · CC BY-SA 3.0. <a href="#procedencia">Fuentes y créditos</a></p>
+        </section>
+        
+        <section id="eje1" class="eje-content" aria-labelledby="eje1-title"><p class="eyebrow">Eje 01 · Reconocer</p><h2 id="eje1-title">Reconocimiento y comprensión de las emociones.</h2><p>Una emoción, una acción y una forma de relacionarnos no son lo mismo. Acércate a sus diferencias, a tu ritmo.</p><div class="learning-activity" data-activity="1"></div>
+        <details id="indice" class="index-disclosure"><summary>Explorar todos los conceptos <span>Conceptos y recursos de los cuatro ejes</span></summary><div class="index-inner"><label class="search-label" for="buscar">Encuentra un concepto</label><input id="buscar" type="search" placeholder="Nombre, palabra o experiencia…" autocomplete="off"><p id="resultados" class="photo-note" role="status"></p><div id="conceptos" class="conceptos-index"></div></div></details>
+        <details class="reflection"><summary>Otra mirada: sentir y actuar</summary><p class="eyebrow">Una pausa para comprender</p><h3>Sentir y actuar son diferentes</h3><p>En una discusión alguien siente rabia y después insulta. ¿Cómo podemos distinguir esos dos momentos?</p><button id="reflexion" class="btn btn-acento" aria-expanded="false" aria-controls="reflexion-texto">Abrir la reflexión</button><div id="reflexion-texto" hidden><p><strong>Sheishe</strong> nombra la rabia en el informe; <strong>Nusa</strong> se refiere a cuando ya se llega al maltrato. Sentir una emoción no justifica una agresión. El diálogo y los acuerdos aparecen en §8.1 como principios de convivencia.</p><details class="reading-source"><summary>Sobre esta lectura</summary><p>Situación y lectura propuestas por el equipo. No es una evaluación ni genera un resultado personal.</p></details></div></details></section>
+        <section id="eje2" class="eje-content" aria-labelledby="eje2-title" hidden><p class="eyebrow">Eje 02 · Cuidar</p><h2 id="eje2-title">Regulación emocional, bienestar y autocuidado.</h2><div class="nikuma-story"><img src="assets/img/elemento-arbol.svg" width="172" height="132" alt="Ilustración de un árbol sin atribución botánica o cultural"><div><p class="eyebrow">Persona · Vínculos · Entorno</p><h3>El cuidado también está en los vínculos</h3><p>El bienestar no se limita a lo individual. La escucha, los acuerdos y la vida compartida permiten pensar el cuidado en relación con otras personas y con el entorno.</p><details class="reading-source"><summary>Referencia cultural: Nikuma</summary><p>El documento técnico de 2024, §6.3, emplea esta grafía y la vincula con vida saludable y organización política, social y cultural. Es una definición de esa fuente. Su uso público, su escritura y su pertinencia como posible nombre requieren validación; no es la identidad del producto.</p></details></div></div>
+        <div class="learning-activity" data-activity="2"></div><details class="tree-study"><summary>Una pausa junto al árbol · Exploración visual</summary><p>Observa tres partes de esta ilustración y abre una pregunta para conversar. No representa una especie determinada ni una tradición.</p><div class="tree-workbench"><img src="assets/img/elemento-arbol.svg" width="172" height="132" alt="Árbol esquemático, sin rostro, con tronco y copa"><div class="tree-controls"><button data-tree="raices" aria-pressed="true">Raíces</button><button data-tree="ramas" aria-pressed="false">Ramas</button><button data-tree="copa" aria-pressed="false">Copa</button></div></div><p id="tree-question" role="status">Los vínculos pueden sostener: ¿a quién podríamos pedir compañía?</p><p class="quiet-note">Estudio gráfico provisional del proyecto. No interpreta emociones ni cambia según lo que sientas.</p></details><div class="relation-map" aria-label="Ámbitos del cuidado en relación"><span>Persona y familia</span><span>Comunidad y autoridades</span><strong>Cuidar en relación</strong><span>Territorio y naturaleza</span><span>Organización y linajes</span></div><details class="reading-source"><summary>Sobre esta lectura</summary><p>Diagrama del equipo basado en §6.3 y §9; no representa una cartografía comunitaria.</p></details>
+        <div class="reading-rows"><details><summary>El consejo y la educación propia</summary><p>El informe sitúa el consejo de los mayores como orientación a lo largo de la vida. Incluye aprender a cuidar la palabra y la relación con el entorno. No se presenta como una receta individual ni como una orden de callar el sufrimiento.</p><details class="reading-source"><summary>Sobre esta lectura</summary><p>Documento §8.1 y §8.3.</p></details></details><details><summary>Los vínculos también cuidan</summary><p>Adecuar caminos, construir puentes y espacios comunitarios aparecen como trabajos colectivos relacionados con bienestar. No son actividades prescritas por Prototipo de bienestar: tienen contexto y organización propios.</p><details class="reading-source"><summary>Sobre esta lectura</summary><p>Documento §8.5.</p></details></details><details><summary>Pensamiento, palabra, escucha y visión</summary><p>El documento describe cuatro principios de sentido. Su cuidado se relaciona con la armonía personal, social, comunitaria y territorial.</p><details class="reading-source"><summary>Sobre esta lectura</summary><p>Documento §7.1.</p></details></details><details><summary>Flores, viento y plantas: mirar con atención</summary><p>La recopilación atribuye a Judith estas imágenes para hablar de frescura, alivio y vida saludable. La manzanilla es uno de los nombres recogidos. Su especie exacta no está confirmada; aquí se muestra una referencia posible, sin recomendar usos medicinales.</p><details class="reading-source"><summary>Sobre esta lectura</summary><p>Recopilación §3. Asociación pendiente de validación directa.</p></details></details></div>
+        <aside class="editorial"><strong>Una situación para conversar</strong><p>Después de un conflicto en un trabajo compartido, ¿con quién podrías hablar y qué acuerdos sería posible construir? Es una pregunta del equipo, inspirada en el diálogo y los acuerdos de §8.1. Puedes pensarla en privado; no se registra ninguna respuesta.</p></aside></section>
+        <section id="eje3" class="eje-content" aria-labelledby="eje3-title" hidden><p class="eyebrow">Eje 03 · Acompañar</p><h2 id="eje3-title">Comprensión del malestar emocional y búsqueda de apoyo.</h2><p class="lead">No necesitas tener un nombre exacto para lo que sientes para pedir compañía.</p><div class="learning-activity" data-activity="3"></div><p>Las fuentes relacionan el malestar con las vivencias, los vínculos y la vida espiritual y comunitaria. Estas perspectivas culturales no son diagnósticos médicos ni causas que Prototipo de bienestar pueda atribuir a una persona.</p>
+        <div class="reading-rows"><details open><summary>Cuando el malestar necesita atención</summary><p>Una tristeza que preocupa, la dificultad para dormir tras una pérdida o el aislamiento merecen una conversación y acompañamiento. No hay en este prototipo un número de días ni una lista para determinar un trastorno.</p><details class="reading-source"><summary>Sobre esta lectura</summary><p>Recopilación §3 y §5; documento §7.3.5. Orientación editorial sin evaluación.</p></details></details><details><summary>Los sueños en su contexto</summary><p>El documento reconoce los sueños dentro del cuidado preventivo y sitúa su interpretación bajo la consulta tradicional. Prototipo de bienestar no interpreta sueños ni simula la consulta del mamo o la saka.</p><details class="reading-source"><summary>Sobre esta lectura</summary><p>Documento §7.2.</p></details></details></div>
+        <ol class="support-path"><li><strong>Una persona que pueda escucharte</strong><p>La recopilación destaca a los padres y personas de confianza. Si ese vínculo no es seguro o accesible, busca otra persona que pueda acompañarte.</p></li><li><strong>Redes y autoridades tradicionales</strong><p>Mamo, saka, mayores y acompañamiento comunitario, según el contexto y la decisión de la persona.</p></li><li><strong>Servicios de salud</strong><p>El diálogo intercultural puede articular el cuidado propio con profesionales. No tienes que agotar una ruta antes de acceder a atención.</p></li></ol><details class="reading-source"><summary>Sobre esta lectura</summary><p>Fuentes: recopilación §8 y documento §8.6–8.8. La posibilidad de elegir un vínculo seguro y acceder directamente a salud es orientación del equipo.</p></details><a class="btn btn-acento" href="apoyo.html">Ver opciones de acompañamiento ↗</a><aside class="aviso">Si existe peligro inmediato o alguien piensa hacerse daño, busca compañía y atención presencial urgente. No esperes a terminar estas lecturas.</aside></section>
+        <section id="eje4" class="eje-content" aria-labelledby="eje4-title" hidden><p class="eyebrow">Eje 04 · Informarse</p><h2 id="eje4-title">Sustancias psicoactivas y cuidado.</h2><p class="lead">Comprender el contexto también es cuidar.</p><div class="learning-activity" data-activity="4"></div><p>El informe identifica el acceso fácil y desinformado a sustancias como una preocupación. También reconoce limitaciones de registro: la ausencia de datos no permite concluir ausencia de situaciones ni inventar cifras.</p><details class="reading-source"><summary>Sobre esta lectura</summary><p>Documento §7.2 y §7.3.3.</p></details>
+        <div class="context-split"><article><span class="eyebrow">Cada práctica tiene un contexto</span><h3>Jañu, nuake y sugi</h3><p>El documento menciona la hoja de coca, el tabaco y el poporo en contextos tradicionales. En el ciclo de desarrollo masculino, la entrega del poporo se relaciona con madurez, reflexión, palabra y responsabilidad.</p><p>Son plantas y objetos con contextos distintos; el poporo no es una sustancia. Esta descripción no constituye una indicación de uso ni una afirmación de inocuidad.</p><details class="reading-source"><summary>Sobre esta lectura</summary><p>Documento §6.9.1; recopilación §6–7.</p></details></article><article><span class="eyebrow">Para cuidar</span><h3>Preguntar antes de asumir</h3><p>No equiparar una práctica tradicional con consumo recreativo o problemático. Si una situación te preocupa, conversa con una persona de confianza, una autoridad tradicional o un servicio de salud.</p><p>Evita tomar decisiones desde la presión de otras personas o información que no comprendes. La experiencia no recomienda sustancias ni ofrece pautas de consumo.</p></article></div><a class="text-link" href="apoyo.html">Encontrar acompañamiento ↗</a></section>
+        <details id="procedencia" class="provenance"><summary>Fuentes y créditos</summary><p>Las actividades y las ilustraciones son propuestas educativas de Prototipo de bienestar. Las asociaciones culturales conservan los matices de las fuentes y necesitan revisión comunitaria. Puedes consultar las precisiones dentro de cada lectura.</p><div id="fuentes"></div><details><summary>Fotografías e ilustraciones</summary><ul><li>Sierra Nevada de Santa Marta: <a href="https://commons.wikimedia.org/wiki/File:Sierra_Nevada_de_Santa_Marta.jpg" target="_blank" rel="noopener noreferrer">Taggen, 2011</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a>. Recorte y ajuste de luminosidad en pantalla; adaptación bajo la misma licencia.</li><li>Referencia de manzanilla: <a href="https://commons.wikimedia.org/wiki/File:Matricaria_chamomilla_flower.jpg" target="_blank" rel="noopener noreferrer">Tulumnes, 2016</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>. Rotulada como Matricaria chamomilla por el autor; no identifica la planta concreta de Judith. Recorte en pantalla bajo la misma licencia.</li><li>Neblina: <a href="https://www.pexels.com/photo/an-aerial-photography-of-green-trees-on-a-foggy-mountain-6965010/" target="_blank" rel="noopener noreferrer">Mikhail Nilov</a>. Río: <a href="https://www.pexels.com/photo/river-on-the-forest-photography-2189708/" target="_blank" rel="noopener noreferrer">Emre Can Acer</a>. Paisajes ilustrativos; no se atribuyen a la Sierra. <a href="https://www.pexels.com/license/" target="_blank" rel="noopener noreferrer">Licencia Pexels</a>.</li><li>Ilustraciones de niebla, luna, fuego, tierra, árbol, flor, agua, viento y conversación: creadas para Prototipo de bienestar. No representan símbolos tradicionales ni reproducen especies botánicas.</li></ul></details></details><noscript><p class="aviso">Activa JavaScript para explorar los paisajes y conceptos. Puedes consultar <a href="apoyo.html">las opciones de apoyo</a> y <a href="acerca.html">el propósito de Prototipo de bienestar</a>.</p></noscript>
+</main>
+
+<nav class="app-nav" aria-label="Navegación principal">
+  <a href="index.html" class="nav-item">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+      <path d="M3 10L10 3l7 7M5 8.5V17h4v-4h2v4h4V8.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span>Inicio</span>
+  </a>
+  <a href="aprender.html" class="nav-item activo" aria-current="page">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+      <path d="M10 17c0 0-7-4-7-9a7 7 0 0 1 14 0c0 5-7 9-7 9z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+      <line x1="10" y1="17" x2="10" y2="10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    </svg>
+    <span>Aprender</span>
+  </a>
+  <a href="apoyo.html" class="nav-item">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+      <path d="M6 10V6a2 2 0 0 1 4 0v4M6 10v5a3 3 0 0 0 6 0v-5M6 10H4a2 2 0 0 0 0 4h2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span>Apoyo</span>
+  </a>
+  <a href="acerca.html" class="nav-item">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+      <rect x="3" y="3" width="14" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/>
+      <line x1="7" y1="7" x2="13" y2="7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="7" y1="10" x2="13" y2="10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    </svg>
+    <span>Acerca</span>
+  </a>
+</nav>
+
+<script src="assets/data/content.js" defer></script>
+<script src="assets/js/busqueda.js" defer></script>
+<script src="assets/js/app.js" defer></script>
+<script src="assets/js/experiencias.js" defer></script>
+</body>
+</html>

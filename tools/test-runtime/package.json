@@ -1,0 +1,6 @@
+{
+  "name": "aluna-pruebas-dom",
+  "private": true,
+  "description": "Dependencia exclusiva para pruebas locales sin navegador",
+  "devDependencies": { "linkedom": "0.18.15" }
+}

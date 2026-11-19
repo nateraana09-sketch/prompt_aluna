@@ -1,0 +1,17 @@
+{
+  "tipo": "Pruebas de mecánicas con DOM emulado; sin motor de renderizado",
+  "estado": "OK",
+  "grupos": 10,
+  "checks": [
+    "Cuatro mecánicas en sus ejes, con cierre contextual y fuentes",
+    "Clasificar, reubicar, comparar y vaciar sin calificar",
+    "Arrastre por eventos de puntero mueve la pieza; cancelación no la mueve",
+    "Secuencia cambia posiciones, ofrece explicación del orden y reinicia",
+    "Historia ramifica, permite regresar y tiene cierres distintos",
+    "Lupa descubre tres capas, produce síntesis y se puede reiniciar",
+    "Alternativas gráficas son reversibles y locales",
+    "Búsqueda con relaciones transparentes, errores y vacío justificado",
+    "Las actividades no piden texto íntimo ni generan perfiles",
+    "Marco solo en escritorio superior, nunca dentro del documento móvil"
+  ]
+}

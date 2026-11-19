@@ -1,0 +1,205 @@
+{
+  "fecha": "2026-11-18",
+  "tipo": "Inspección estática y recursos HTTP locales; sin navegador",
+  "paginas": [
+    "acerca.html",
+    "apoyo.html",
+    "aprender.html",
+    "index.html"
+  ],
+  "conceptos": 18,
+  "ejes": 4,
+  "imagenes": [
+    {
+      "archivo": "bosque-neblina.jpg",
+      "bytes": 135348,
+      "ancho": 1600,
+      "alto": 1066
+    },
+    {
+      "archivo": "flores-luz.jpg",
+      "bytes": 204852,
+      "ancho": 1200,
+      "alto": 1800
+    },
+    {
+      "archivo": "manzanilla-tulumnes.jpg",
+      "bytes": 76587,
+      "ancho": 500,
+      "alto": 513
+    },
+    {
+      "archivo": "rio-bosque.jpg",
+      "bytes": 401307,
+      "ancho": 1200,
+      "alto": 1500
+    },
+    {
+      "archivo": "sierra-nevada-taggen.jpg",
+      "bytes": 209258,
+      "ancho": 1280,
+      "alto": 960
+    }
+  ],
+  "fuentes_integras": true,
+  "http": [
+    {
+      "recurso": "acerca.html",
+      "status": 200,
+      "bytes": 3812
+    },
+    {
+      "recurso": "apoyo.html",
+      "status": 200,
+      "bytes": 6627
+    },
+    {
+      "recurso": "aprender.html",
+      "status": 200,
+      "bytes": 18791
+    },
+    {
+      "recurso": "assets/css/aprendizaje.css",
+      "status": 200,
+      "bytes": 5160
+    },
+    {
+      "recurso": "assets/css/experiencia.css",
+      "status": 200,
+      "bytes": 10018
+    },
+    {
+      "recurso": "assets/css/participacion.css",
+      "status": 200,
+      "bytes": 6450
+    },
+    {
+      "recurso": "assets/css/styles.css",
+      "status": 200,
+      "bytes": 30437
+    },
+    {
+      "recurso": "assets/css/territorio.css",
+      "status": 200,
+      "bytes": 15724
+    },
+    {
+      "recurso": "assets/data/content.js",
+      "status": 200,
+      "bytes": 33007
+    },
+    {
+      "recurso": "assets/img/bosque-neblina.jpg",
+      "status": 200,
+      "bytes": 135348
+    },
+    {
+      "recurso": "assets/img/elemento-agua.svg",
+      "status": 200,
+      "bytes": 408
+    },
+    {
+      "recurso": "assets/img/elemento-arbol.svg",
+      "status": 200,
+      "bytes": 458
+    },
+    {
+      "recurso": "assets/img/elemento-flor.svg",
+      "status": 200,
+      "bytes": 700
+    },
+    {
+      "recurso": "assets/img/elemento-fuego.svg",
+      "status": 200,
+      "bytes": 466
+    },
+    {
+      "recurso": "assets/img/elemento-niebla.svg",
+      "status": 200,
+      "bytes": 413
+    },
+    {
+      "recurso": "assets/img/elemento-noche.svg",
+      "status": 200,
+      "bytes": 365
+    },
+    {
+      "recurso": "assets/img/elemento-palabra.svg",
+      "status": 200,
+      "bytes": 352
+    },
+    {
+      "recurso": "assets/img/elemento-tierra.svg",
+      "status": 200,
+      "bytes": 420
+    },
+    {
+      "recurso": "assets/img/elemento-viento.svg",
+      "status": 200,
+      "bytes": 336
+    },
+    {
+      "recurso": "assets/img/flores-luz.jpg",
+      "status": 200,
+      "bytes": 204852
+    },
+    {
+      "recurso": "assets/img/guia-felino.svg",
+      "status": 200,
+      "bytes": 763
+    },
+    {
+      "recurso": "assets/img/guia-rama.svg",
+      "status": 200,
+      "bytes": 421
+    },
+    {
+      "recurso": "assets/img/manzanilla-tulumnes.jpg",
+      "status": 200,
+      "bytes": 76587
+    },
+    {
+      "recurso": "assets/img/rio-bosque.jpg",
+      "status": 200,
+      "bytes": 401307
+    },
+    {
+      "recurso": "assets/img/sierra-nevada-taggen.jpg",
+      "status": 200,
+      "bytes": 209258
+    },
+    {
+      "recurso": "assets/js/app.js",
+      "status": 200,
+      "bytes": 13830
+    },
+    {
+      "recurso": "assets/js/busqueda.js",
+      "status": 200,
+      "bytes": 1454
+    },
+    {
+      "recurso": "assets/js/experiencias.js",
+      "status": 200,
+      "bytes": 13527
+    },
+    {
+      "recurso": "assets/js/presentacion.js",
+      "status": 200,
+      "bytes": 972
+    },
+    {
+      "recurso": "index.html",
+      "status": 200,
+      "bytes": 6066
+    }
+  ],
+  "errores": [],
+  "pendientes": [
+    "Inspección visual de páginas en navegador",
+    "Renderizado a 360, 390, 430 y 1366 px",
+    "Gestos y desplazamiento en un teléfono real",
+    "Consola y red de un navegador real",
+    "Validación comunitaria de grafías, asociaciones y términos sensibles"
+  ]
+}

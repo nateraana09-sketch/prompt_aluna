@@ -1,0 +1,533 @@
+ALUNA I.A · PROYECTO CON LA COMUNIDAD KOGUI
+Cómo entiende el pueblo Kogui
+la salud mental, las emociones
+y el cuidado
+Recopilación de insumos para el prototipo de psicoeducación dirigido a
+hombres jóvenes mayores de 18 años (depresión y consumo de sustancias)
+Fuentes: (1) transcripción de la reunión con la señora Judith, lideresa Kogui; (2) «Documento técnico
+Pueblo Kogui», Resguardo Kogui Malayo Arhuaco, diciembre 2024 (56 pp.), en cuya portada la señora
+Judith Nuvita Coronada figura como coordinadora general. Preparado el 14 de noviembre de 2026.
+Cómo leer este documento
+Cada afirmación lleva una etiqueta para que el equipo sepa de dónde viene:
+J lo dijo la señora Judith en la reunión · I lo dice el informe de 2024 · Interp. es una
+lectura o recomendación nuestra, no de la comunidad: hay que validarla con ella.
+Los términos en lengua Kogui se conservan tal como aparecen en las fuentes. El informe
+escribe algunos con variantes (por ejemplo kauguiañ / kaugiañ) y la transcripción es
+automática y tiene errores; por eso conviene confirmar la escritura de cada palabra con la
+señora Judith antes de usarla en la app.
+1. Lo esencial en diez ideas
+1. La salud mental es armonía y equilibrio del pensamiento y del espíritu (Aluna), no
+solo un asunto de la mente individual. Está unida a la familia, los ancestros, el territorio y la
+naturaleza. I
+2. No se habla de «bueno y malo», sino de «negativo y positivo». Lo negativo tiene que
+existir; el objetivo no es eliminarlo sino equilibrarlo. «Aquí no se trata de malo y bueno». J
+3. Las emociones se entienden a través de la naturaleza: la preocupación es neblina, la
+depresión es noche, la rabia es fuego, la firmeza es tierra, la calma es flores y viento, la
+esperanza son plantas medicinales. J
+4. Las causas se buscan en lo espiritual, lo ancestral y lo familiar (trabajos tradicionales
+incumplidos, deudas espirituales, sueños no atendidos), no solo en lo que le pasó a la
+persona. J I
+5. La ruta de cuidado va primero «hacia adentro»: padres → mamo o saka, mayores,
+abuelos, consulta tradicional. La atención occidental viene después, «si no se aborda desde
+la parte propia». J
+6. Los sueños son una señal preventiva. Un sueño negativo es motivo para consultar al
+mamo. J I
+Aluna I.A · Recopilación Kogui · página 1 de 13
+7. El alcohol es el tema de sustancias que la comunidad pone sobre la mesa. Tiene
+usos tradicionales (plantas, sanación, festividades); el problema es el uso descontrolado de
+la nueva generación. La coca (jañu), el tabaco (nuake) y el poporo son sagrados, no
+«drogas». J I
+8. El suicidio y el alcohol están vinculados y rodeados de silencio: hay subregistro y
+estigma (puede verse como vergüenza o debilidad). Se asocian al aislamiento y al
+desarraigo de la comunidad. J I
+9. La población más afectada son hombres jóvenes, desde el momento en que llevan
+«traje de adulto» (ciclo que puede iniciar a los 16–17 años). J
+10. Lo que la señora Judith espera de la app: en lengua Kogui, con señales, consejos y una
+ruta sencilla («primeros auxilios»), que dé relevancia a la consulta tradicional y a los mamos.
+No como juego. J
+2. La base: cómo se concibe la salud
+Aluna, Sé y el origen del pensamiento
+El informe parte de la Ley de Sé: «Aluna es espíritu, pensamiento, y Sé es la oscuridad del
+Origen del mundo»; todo se crea primero en pensamiento, en un estado invisible, y solo después
+pasa al mundo material. I De ahí que la salud mental se llame, en español, «armonía, equilibrio
+o bienestar del espíritu, pensamiento, mente, alma», y se exprese en lengua Kogui como Se
+Alduna Jaba – Se Alduna Jate, Se-Mulkueke y Seiuman. I
+Armonía: respeto mutuo hacia todo lo que existe; «se expresa en sensación de tranquilidad o
+alegría». Desarmonía: cuando esos principios se alteran. I
+Equilibrio: plenitud y bienestar del ser consigo mismo, con el territorio y con el entorno, que
+se mantiene con cuidado, respeto y trabajos espirituales. I
+Nikuma: paz, tranquilidad, armonía; «estar en la vida saludable». I
+Lo físico, lo mental y lo espiritual no se separan. Cuando hay enfermedad en el mundo
+físico es porque hay desarmonía en el mundo espiritual, «pues la vida proviene desde allá».
+I
+Cuatro elementos (agua, viento, fuego y tierra) y cuatro principios de sentido
+(pensamiento, palabra, escucha y visión) sostienen el bienestar; cada sentido debe usarse
+con cuidado. I
+Salud mental «indígena» ≠ definición única. El propio informe cita que habrá «tantas
+definiciones posibles como pueblos indígenas existan». I
+Aluna I.A · Recopilación Kogui · página 2 de 13
+Lo negativo y lo positivo
+«Para la cosmovisión de nosotros, lo negativo tiene que existir.» En la depresión «hay una
+carga más grande en lo negativo que lo positivo; el positivo de pronto está ahí chiquitico…
+Hay que equilibrar. Cuando tú equilibras es cuando encuentras sentido a la vida.» Se van a
+seguir teniendo emociones negativas, «pero de ahí a que tú te descontroles es otra cosa».
+J
+El informe lo formula así: la vida positiva «no es acto de integrar a lo negativo, sino que se
+debe integrar negativo a lo positivo»; la salud es el equilibrio entre ambos en el
+pensamiento, los sentimientos, las emociones, la palabra y las acciones. I
+3. Cómo entienden y relacionan las emociones
+La señora Judith propuso empezar la app por las emociones y relacionarlas con elementos de la
+naturaleza. Esto es lo que dijo, junto con los términos del informe:
+Estado o emoción Imagen en la naturaleza J Término Kogui y cómo lo describe el
+informe I
+Preocupación,
+miedo,
+desorientación
+Neblina, «me nublé». Twan (grafía
+a confirmar): «algo me nubla y no
+me deja ver»; quedar «sin vista,
+sin visión, sin luz, sin dirección».
+La preocupación incluso se
+entiende por no dormir.
+La Ley de Sé se traduce como «neblina y/u
+oscuridad», pero allí es el origen, no solo un
+estado negativo.
+Depresión,
+tristeza profunda
+Noche, «todo oscuro»; «todos los
+negativos disparados». La luna es
+pensamiento.
+Seishtuiji: «la depresión que conecta la
+muerte». Resultado de trabajos tradicionales
+irregulares desde la fecundación, sin
+saneamiento ancestral.
+Tristeza por
+pérdida
+Es «normal», pero aun así puede
+desarmonizar («no está estable,
+no está dinámico») y merece
+indicaciones.
+Muerte de familiares y vivencias negativas
+figuran entre las causas de emociones
+desequilibrantes.
+Rabia Fuego; lo contrario de la
+serenidad.
+Sheishe (rabia); Nusa (rabia que llega a
+maltratar).
+Firmeza,
+seguridad,
+estabilidad
+Tierra. —
+Calma, frescura Flores y viento. —
+Esperanza, alivio,
+sanación
+Flores, árboles y plantas
+medicinales aromáticas: frailejón,
+manzanilla, quina, limón; una
+planta roja con la que juegan los
+niños.
+El informe plantea la naturaleza como fuente
+de salud.
+Aluna I.A · Recopilación Kogui · página 3 de 13
+Alegría No recibió una imagen natural en
+la transcripción. Dijo que en Kogui
+la palabra «no solo es happy, sino
+algo más largo para poder
+comprenderlo».
+La armonía «se expresa en sensación de
+tranquilidad o alegría».
+Celos — Mauldi: entre las causas de emociones
+desequilibrantes, junto con la infidelidad.
+Chismes y
+calumnias
+— Muldzigaba – dula.
+Críticas, palabras
+intolerantes
+— Kaka: críticas, palabras intolerantes,
+problemáticas.
+Según el informe, estas emociones se atribuyen a «espíritus negativos» y, si no se controlan, la
+persona «se desequilibra y se enferma» (mulbataja guka), afectando también la energía del
+entorno. Las palabras importan: «las palabras que también ofenden generan enfermedades». I
+Señales de alerta que mencionan las fuentes
+Sueños negativos: «uno de los indicadores o métodos preventivos es el sueño». Si el sueño
+es negativo, se consulta al mamo. J El informe agrega que lo positivo puede tener efecto
+negativo y viceversa, y que la interpretación siempre se dirige «bajo la consulta tradicional».
+I
+No poder dormir por una pérdida o ruptura. J
+Una tristeza que dura: la señora Judith sugirió un criterio de tiempo («si dura más de tantos
+días… puede considerarse que está en proceso de depresión», como ejemplo). J
+Aislamiento: familias desarraigadas de la comunidad o que dejan de cumplir los trabajos
+comunitarios. J I
+Pensamientos negativos, hablar mal de otros o de uno mismo, desconfianza, mal
+deseo. I
+4. Colores y elementos: lo que dijo la señora Judith
+Alejandro preguntó cómo se asocian los colores a las emociones en la comunidad, frente al
+esquema occidental (amarillo = alegría, azul = tristeza). Nota: la transcripción de este
+fragmento es confusa; hay que confirmarlo con ella sobre un boceto.
+Color Lo que representa J
+Azul y verde Cosas que tienen vida (agua, naturaleza). En su respuesta el azul es color de
+vida, no de tristeza.
+Rojo y naranja Vida, pero «desde la sangre»; emociones de vida con sangre.
+Amarillo y colores
+brillantes
+También se pueden usar.
+Blanco, gris,
+negro
+«Nos gusta más el blanco.» Blanco = día; gris = término medio; negro =
+noche, oscuro, «no es tan negativo».
+Aluna I.A · Recopilación Kogui · página 4 de 13
+Verde manzana y
+colores de flores
+Todo lo relacionado con la vida.
+Café/marrón y
+mostaza
+La tierra y la fertilidad («la tierra fértil es marrón»).
+Dijo además que ella tendría que ver el bosquejo para decir cómo adaptarlo, y se ofreció a
+ayudar a «homologar» o a decir cómo expresar cada idea en su propia forma. J
+5. Cómo entienden el malestar: depresión, suicidio y
+desarmonía
+Tristeza y depresión
+Los sabedores reconocen que existen, pero los ven como sentimientos que se resuelven «con
+la ayuda de los padres o de las autoridades tradicionales, sociales o espirituales: mama y
+saka». I
+Su origen se atribuye a cumplimientos irregulares de los trabajos tradicionales desde la
+fecundación hasta el desarrollo, que dejan sin sanear la línea ancestral. I
+La señora Judith usó «desarmonía psicoespiritual o del pensamiento» como su forma de
+nombrar el problema, y «depresión» solo como ejemplo para poner un criterio de alerta. J
+El informe afirma que la existencia de trastornos mentales en niños, jóvenes o adultos «es
+nula» en las comunidades. I Interp. Esto refleja que lo que occidente llama «trastorno» no
+se nombra igual; conviene no imponer categorías diagnósticas en la app.
+Suicidio
+La señora Judith lo menciona primero entre los problemas («un aumento de casos de
+suicidio»), aunque propuso trabajar más el alcoholismo. J
+Plantea como posible explicación el no acudir al mamo, familias que se aislaron o se fueron a
+otra comunidad, o con quien se mantiene aislado de los trabajos comunitarios. Reconoce que
+desde adentro es difícil alertar quién puede estar pensando en hacerlo; propuso que los
+auxiliares y líderes de salud lo anoten en sus formatos. J
+El territorio es aislado, hay poca capacitación en salud mental y los problemas emocionales se
+tratan por vía tradicional sin registro formal. Algunos sectores pueden ver el suicidio como
+acto vergonzoso o señal de debilidad, por lo que quien piensa en hacerse daño «no tiene un
+espacio para expresarse o buscar ayuda». I
+Hablar y confesar lo pensado (alunazhiguashi) y reconciliarse con la verdad (zhigakpeninga)
+hacen parte de la sanación. I
+Qué cuenta como causa
+Causa o determinante Qué dice el informe I
+Trabajos tradicionales incumplidos Desarrollo (sugui, misima), nombramiento (gauldi), matrimonio
+(seishgauwa), mortuoria: su incumplimiento deja sin sanear a
+los ancestros y puede traer violencia, alcoholismo, conflictos y
+accidentes en la familia.
+Aluna I.A · Recopilación Kogui · página 5 de 13
+Sueños sin sanear El sueño avisa de una desarmonía; sin saneamiento, produce
+desarmonía.
+Falta de control de emociones
+negativas
+Rabia, críticas, celos, chismes, depresión (ver sección 3).
+Pérdida de identidad cultural Por aislamiento comunitario o fallas en la educación propia.
+Acceso fácil y desinformado a
+sustancias
+Especialmente en contacto con campesinos y zonas turísticas.
+Fallas de algunas autoridades en el
+control social
+Puede conducir a mendicidad y desarraigo.
+Contexto histórico: el informe enumera colonización, prohibición de la lengua por la iglesia,
+conflicto armado, minería, desplazamiento y alcoholismo como factores que amenazan el
+equilibrio y la preservación cultural. I El informe describe además la guerra que vivió la Sierra
+desde 2004. Interp. Ese pasado puede ayudar a entender la cautela frente a propuestas
+externas.
+6. Alcohol y otras sustancias
+La señora Judith pidió explícitamente trabajar el alcoholismo, porque «tiene que ver con la
+afectación de la salud mental». J
+Tema Lo que dicen las fuentes
+Uso tradicional El alcohol puede usarse para plantas y en festividades tradicionales;
+antes se usaba solo en la sanación. J I Algunos indígenas han
+aprendido a consultar con el alcohol. I
+Qué cambió Hoy la nueva generación lo ha tomado desde el uso descontrolado. J El
+informe ubica el origen en la colonización (trapiche y caña para licor en
+festividades). I
+Quiénes Jóvenes ya adultos, por lo general hombres; no los niños ni los
+adolescentes que todavía no tienen «traje de adulto». J
+Dónde Más en comunidades fronterizas o de la parte baja, en contacto con
+campesinos. I
+Consecuencias Desarmonías físicas, de pensamiento y espirituales; maltrato a mujeres y
+niños; conflictos de pareja, familia y comunidad; deterioro espiritual y
+material del pueblo. I
+Forma de nombrarlo «Desde el concepto kogui el alcohol representa a una mujer, por lo tanto
+no se debe desvalorizar con los actos negativos del consumidor.» I
+Interp. Es un marco muy propio para hablar con hombres jóvenes
+sobre respeto, pero hay que confirmar con la señora Judith cómo y si
+puede usarse.
+Qué protege Protocolo tradicional de control del alcohol dirigido por mamos y
+mayores; trabajo de protección a la juventud; padres sin embriaguez ni
+discusiones durante la fecundación y el embarazo; concientización
+individual, de pareja, familia y comunidad. I
+Aluna I.A · Recopilación Kogui · página 6 de 13
+Coca, tabaco, poporo Hoja de coca (jañu), tabaco (nuake) y poporo (sugi) son plantas y objetos
+de uso ceremonial y de pensamiento. I Interp. No deben clasificarse
+en la app como «sustancias de riesgo».
+Otras sustancias El informe habla de «silencio epidemiológico»: no hay registros, pero se
+teme que la juventud, en contacto con campesinos y zonas turísticas,
+empiece a presentar casos. I En la reunión solo se mencionó el alcohol.
+7. El hombre joven Kogui: ciclo de vida e identidad
+Quién es el público. La señora Judith indicó que la población afectada son por lo general
+jóvenes ya adultos y hombres. Pidió que se tome «desde los 18 en adelante», aunque el ciclo
+de desarrollo masculino puede iniciar a los 16–17 años, edad que en occidente aún es
+adolescencia. J Interp. Decisión del equipo: definir el límite de edad y cómo tratar a los de
+16–17, que probablemente también usarán la app.
+Sugui (entrega del poporo). Etapa en que el niño cambia su atuendo y recibe el sugi, el
+jañu y los sewas. Marca madurez, reflexión y sabiduría ante sus actos. Los mamos le dan
+largas charlas sobre ser hombre kaggaba, sobre crear la «palabra y pensamiento dulce» con
+su entorno, «base de la buena salud». Es la primera vez que entra al nujue masculino y
+comparte su palabra con las autoridades. I
+Matrimonio (seishgauwa). La afectación de uno repercute en el otro; cada pareja se
+orienta de manera dual y asume responsabilidad con el territorio. I
+Complementariedad. Lo masculino y lo femenino siempre existen juntos (mama = sol, saka
+= luna). La pareja espiritual de un hombre es femenina. J I
+Lo que falta. Los grupos consultados en el informe fueron autoridades sociales, mamos y
+sakas, y mujeres; la señora Judith habló como lideresa. No hay voz directa de hombres
+jóvenes en estas fuentes.
+8. Cuidado y redes de apoyo
+El orden que propone la señora Judith
+1.º Los padres. Son la primera red, «siempre», «porque los padres son los que tienen la
+vida espiritual de uno»; engendraron a la persona y saben qué pasó en su concepción,
+embarazo y parto. J
+2.º Mamo o saka, mayores, abuelos, consejero principal, comunidad, sabedores,
+con la consulta tradicional. J
+3.º Un amigo o una persona de confianza (mencionó también redes sociales; la
+transcripción es poco clara en este punto). J
+4.º Hacia afuera: centros occidentales, «si no se aborda desde la parte propia». J
+Hacia adentro J Hacia afuera J
+Quiénes / dónde Padres, mamos, sakas, mayores, abuelos,
+comunidad, el paisaje y la naturaleza,
+consulta tradicional.
+Centros de salud occidentales y
+profesionales.
+Aluna I.A · Recopilación Kogui · página 7 de 13
+Cuándo Es la vía principal y por defecto. Según
+ella, la mayoría de los casos los aborda el
+mamo.
+Cuando lo propio no alcanza.
+Hacia afuera «muy poco se da el
+abordaje».
+Principio común El principio de la escucha: escuchar a la persona y buscar orientación de los
+mayores. «Es muy importante tanto hacia adentro como hacia afuera.»
+Qué hace el mamo y cómo se sana
+La consulta tradicional decide el abordaje; la hacen los mamos y sakas (las sakas se
+especializan, por ejemplo, en pensamiento, sueños o consulta con el agua). I J
+El mamo revisa la línea ancestral para ubicar «dónde está la falencia» y sanea con ayuda de
+los padres. A diferencia del familiograma psicológico, el abordaje es «ancestral y universal», y
+«si tú saneas lo ancestral, estás garantizando el saneamiento del futuro». J
+Ejemplos que dio: una deuda con una piedra que era autoridad, un sueño de la madre durante
+el embarazo que no se saneó, una desarmonía con la naturaleza en el desarrollo. J
+Pagamento y saneamiento (shala): depositar «deudas» en sitios sagrados, de manera
+individual, familiar o comunitaria, con ciclos anuales en las partes baja, media y alta de la
+Sierra. I
+Lo colectivo también cuida: trabajos comunitarios (adecuar caminos, construir puentes y
+nujue), bailes tradicionales, encuentros en los ezuamas, espacios femeninos y masculinos
+para sanar conflictos familiares. I
+Consejo (guiaba): orientación permanente de los mayores; principios para la convivencia:
+pensamiento positivo, acuerdos y diálogo (dulazhikshiji), tolerancia y perdón (shikabetiji),
+complementariedad (zhigoneishi), guianza y consejo. I
+Recomendaciones para un pensamiento positivo del informe: no escuchar críticas
+negativas, no interpretar las palabras de la rabia, no pensar en lo negativo, no pensar de
+noche en el lugar del miedo, no mentir, no contradecir. I
+Una tensión que el equipo debe tener presente Interp.
+Los materiales de psicoeducación occidentales suelen invitar a «expresar lo que sientes». El
+informe, en cambio, recomienda «no llorar, no entristecer» y evitar el pensamiento
+negativo, y coloca la confesión en un destinatario concreto (los padres espirituales, la
+naturaleza, los espacios sagrados, el mamo). La app debería orientar hacia quién y dónde
+hablar, más que invitar a una expresión abierta sin destinatario. Hay que consultarlo con la
+señora Judith.
+9. Datos de contexto
+Se incluyen sin métodos ni detalles de cómo ocurrieron los casos, por cuidado con el material que pueda circular.
+Dato Valor Fuente
+Población Kogui Entre 24.461 y 26.666 personas según la
+sección del informe; 54 comunidades, 16
+cuencas
+I
+Aluna I.A · Recopilación Kogui · página 8 de 13
+Suicidios en población Kogui de Guajira y
+Magdalena, 2020–2023 (IPSI Gonawindua)
+3 (2020), 2 (2021), 8 (2022), 7 (2023): total
+20. Dibulla 70 %, Santa Marta 20 %, Ciénaga
+10 %. Taminaka concentra 4 casos.
+I
+Intentos de suicidio registrados por la EPSI
+Dusakawi, 2024
+0 para el pueblo Kogui (76 en total, de otros
+pueblos o sin etnia registrada). El informe
+señala el subregistro como problema general.
+I
+Registro de intoxicaciones por sustancias,
+2024
+0 en Kogui: «silencio epidemiológico» I
+Población indígena, Encuesta Nacional de
+Salud Mental 2015
+4,9 % con ideación suicida; alcohol, 81,6 % de
+consumo en el último año
+I
+Intentos de suicidio en población indígena,
+2017–2019
+Mayor riesgo entre 15 y 19 años (≈31–36 %),
+luego 20–24 (≈21–23 %) y 25–29 (≈12–14 %).
+Más intentos en mujeres (≈53–54 %); más
+muertes en hombres (69,1 %, 2008–2016).
+I
+Factores asociados a intentos (población
+indígena)
+Conflictos de pareja o expareja (primer lugar),
+maltrato, problemas económicos; entre los
+riesgos, trastorno depresivo (a la baja) y abuso
+de alcohol (al alza).
+I
+Los datos nacionales no son específicos del pueblo Kogui: el propio informe aclara que en población indígena no
+hay información específica sobre las razones de la decisión.
+10. Implicaciones para la app Interp.
+Lo siguiente son recomendaciones nuestras derivadas de las fuentes; cada una debe revisarse
+con la señora Judith.
+Contenido y lenguaje
+Hablar de armonía/desarmonía, equilibrio y pensamiento antes que de «depresión» o
+«trastorno». Mostrar el término occidental solo como equivalencia, y los términos Kogui con la
+ayuda de la señora Judith, que se ofreció a homologar.
+Estructura tipo «primeros auxilios» (su propuesta): señal → imagen de la naturaleza →
+qué puedo hacer → con quién hablar (adentro → afuera). Incluir un criterio de duración con la
+psicóloga Kenia.
+Empezar por las emociones (su propuesta), con las imágenes de la sección 3, y una
+sección de sueños (positivo/negativo → consultar al mamo).
+Priorizar a los padres y al mamo como primera ruta y dar relevancia a la consulta
+tradicional; la app orienta, no reemplaza. Ofrecer el camino «hacia afuera» como
+complemento, con centros de atención y líneas de crisis vigentes (por definir con la
+psicóloga).
+Tono de consejo (guiaba) y «palabra dulce»: sin culpar, sin moral de bueno/malo,
+normalizando que lo negativo existe y que lo importante es no descontrolarse.
+Alcohol: reconocer su uso tradicional y señalar el uso descontrolado y sus efectos en pareja,
+familia y comunidad. Evaluar el marco «el alcohol representa a una mujer» con la señora
+Judith.
+Aluna I.A · Recopilación Kogui · página 9 de 13
+No tratar coca, tabaco ni poporo como sustancias de riesgo.
+Estigma: evitar lenguaje que refuerce la vergüenza o la debilidad; mensajes que muestren
+que pedir orientación es parte del cuidado.
+Diseño visual y experiencia de usuario
+Paleta tomada de la naturaleza: tierra (marrón, mostaza), verde y colores de flores,
+blanco/gris/negro como día/medio/noche. No usar azul = tristeza ni asumir que rojo =
+alerta de peligro (para ella el rojo es vida con sangre). El negro es noche, no necesariamente
+«malo».
+Íconos de elementos: neblina, noche, fuego, tierra, flores y viento, plantas medicinales. La
+señora Judith también sugirió «jugar con las caritas» para las emociones.
+Audio y lengua Kogui primero. El saber se transmite por oralidad, la escritura de la lengua
+es una meta a largo plazo, y el «principio de la escucha» es central. Textos cortos y narración
+en voz.
+Sin mecánicas de juego (puntos, niveles, premios): ella misma se corrigió («un juegos no
+podríamos decirlo»), y el informe dice que en la ley propia «no existen juegos».
+Privacidad y discreción: sin exigir datos personales; pensar en uso en teléfonos
+compartidos o en la zona baja y en la ciudad.
+Uso con poca conectividad: el informe describe un territorio aislado; conviene que el
+contenido funcione sin conexión (hipótesis a validar).
+Mensajes seguros sobre suicidio: sin métodos ni detalles, y con una ruta de ayuda clara y
+conocida.
+11. Cuidados culturales que aparecen en las fuentes Interp.
+El equipo indicó que no hay límites sobre lo que la comunidad compartió. Aun así, los propios
+materiales contienen advertencias que conviene respetar en el diseño y que no se deben dar por
+superadas:
+Aluna I.A · Recopilación Kogui · página 10 de 13
+Nombres de los padres espirituales. El informe dice: «estos padres espirituales no
+hay que pronunciarlos sin justificación, pues tan solo el nombramiento trae deudas». Por
+eso este documento no los transcribe. Preguntar antes de nombrarlos o representarlos en
+la app.
+Juegos. «Dentro de la ley propia no existen juegos ni tipo de juegos, no se puede jugar ni
+con agua, ni con tierra, ni con las piedras.»
+Piedras, agua, tierra y sitios sagrados tienen vida y deuda: no usarlos como
+decoración ni como material interactivo sin consultar.
+Rituales y consulta. La app no debe simular una consulta, un pagamento o un trabajo
+tradicional: eso lo hacen el mamo y la saka.
+Palabras delicadas: seishtuiji («la depresión que conecta la muerte») debe manejarse
+con cuidado.
+Propuestas externas. El informe pide adecuarlas «de forma rigurosa» para no
+desarticular la identidad colectiva; las propuestas deben ir de la mano del gobierno
+propio.
+Citas. Confirmar con la señora Judith cómo quiere ser citada y revisar las frases textuales
+antes de publicarlas.
+12. Vacíos y preguntas para la próxima reunión
+La señora Judith ofreció revisar una propuesta en una reunión corta. Estas son las preguntas que
+las fuentes dejan abiertas:
+Voz de los hombres jóvenes. ¿Se puede conversar con algunos, con permiso de las
+autoridades? ¿Qué palabras usan para lo que sienten? ¿Qué los acerca o los aleja de un
+mamo?
+Alcohol. ¿Cómo se dice «uso descontrolado» en Kogui? ¿Qué señales se ven primero? ¿Qué
+papel tienen la pareja y la familia? ¿Se puede usar «el alcohol representa a una mujer»?
+Alegría y otras emociones. ¿Qué imagen natural y qué palabra corresponden a la alegría,
+al miedo, a la vergüenza, a la soledad?
+Colores. ¿Se confirma el significado de cada color sobre un boceto? ¿Qué colores no deben
+usarse?
+Alerta. ¿Qué criterio de duración usarían (días)? ¿Qué señales además de los sueños y el
+insomnio?
+Ruta. ¿A quién se acude primero si el joven no vive con sus padres? ¿Qué hace quien está en
+la ciudad o en comunidad lejana de un mamo?
+Lengua. ¿Hay forma estandarizada de escribir los términos? ¿Quién grabaría el audio? ¿Qué
+tan frecuente es leer y escribir en español entre los jóvenes?
+Acceso. ¿Tienen celular los jóvenes? ¿Hay señal? ¿Quién lo comparte?
+Edad. ¿Cómo tratamos a quienes están entre 16 y 17 años?
+Crisis. ¿Qué hacer si alguien dice que quiere morir? ¿Quién es la persona de contacto en la
+comunidad?
+Coordinación. Hay otro grupo que trabaja una app comunitaria de vigilancia epidemiológica
+(la señora Judith mencionó a «Rafael»). Conviene alinear alcances para no duplicar.
+Aluna I.A · Recopilación Kogui · página 11 de 13
+13. Glosario de términos Kogui
+Grafías tomadas del informe; las de la transcripción están marcadas y deben confirmarse.
+Término Significado en las fuentes Fuente
+Aluna Espíritu, pensamiento I
+Sé / Ley de Sé Neblina u oscuridad del origen; principio del ser en el espíritu; unidad
+de lo positivo y negativo, femenino y masculino
+I
+Kaggaba / Kaguba /
+Kogui
+Pueblo «primera semilla» I
+Kauguiañ Lengua Kogui (variante: kaugiañ) I
+Mama / mamo Autoridad espiritual, «sol». La transcripción lo escribe «mamo». J I
+Saka Sabia, «luna»; en la transcripción aparece «saja» J I
+Jugukui / Maku Jugukui Autoridad social; guardián y responsable del territorio I
+Nikuma Paz, tranquilidad, armonía; también organización social I
+Ezuama Sitio sagrado de origen del conocimiento I
+Nujue Casa ceremonial de pensamiento (masculino) I
+Guiaba Consejo, educación propia, ejemplo I
+Kualdakuama /
+Kualakuama
+Buen vivir I
+Shala / Shalda Pagamento; sitios de depósito de deudas espirituales I
+Alunazhiguashi Hablar lo pensado ante los padres espirituales y la naturaleza I
+Zhigakpeninga Confesarse en la verdad, ambas partes I
+Kushalula · Gauldi ·
+Misima · Sugui ·
+Seishgauwa · Jise
+akeia
+Concepción · nombramiento · desarrollo de la mujer · entrega del
+poporo · matrimonio · mortuoria
+I
+Jañu · Nuake · Sugi Hoja de coca · tabaco · calabazo del poporo I
+Twan / twang (por
+confirmar)
+«Me nublé»; en la oscuridad; preocupación, miedo J
+Sheishe · Nusa Rabia · rabia que llega a maltratar I
+Kaka · Muldzigabadula
+· Mauldi
+Críticas y palabras intolerantes · chismes y calumnias · celos I
+Seishtuiji Depresión que conecta la muerte I
+Mulbataja guka Enfermarse por desequilibrio emocional I
+Aluna I.A · Recopilación Kogui · página 12 de 13
+Dulazhikshiji ·
+Shikabetiji ·
+Zhigoneishi
+Acuerdos y diálogo · tolerancia y perdón · complementariedad I
+Hermano menor Forma en que el informe nombra a la sociedad no indígena I
+14. Fuentes y notas
+Transcripción de la reunión con la señora Judith (≈40 min), generada automáticamente. Tiene
+ruido y errores evidentes: el pueblo aparece como «COVID» en lugar de Kogui, «mambo» por
+mamo y «Saha» por saka. Los fragmentos de colores y de la lista de emociones están en parte
+confusos. Las frases textuales deben revisarse antes de citarlas.
+Resguardo Kogui Malayo Arhuaco (2024). Documento técnico Pueblo Kogui. Análisis, estado de
+diagnóstico, lineamientos estratégicos y prácticas de sanación… Acuerdo IM-168,
+componentes 3 y 4; convenio 1616 de 2024 con el Ministerio de Salud y Protección Social.
+Elaborado con 69 representantes: el cabildo gobernador, 49 autoridades tradicionales y 17
+sabedoras y mujeres lideresas.
+Las figuras y gráficos del informe no se transcriben aquí; las tablas con cifras se resumen en
+la sección 9.
+Aluna I.A · Recopilación Kogui · página 13 de 13

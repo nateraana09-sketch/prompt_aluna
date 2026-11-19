@@ -1,0 +1,115 @@
+/* Fase 2: referentes naturales y aprendizaje progresivo. */
+.landmark::after { display: none; }
+.landmark { min-width: 88px; padding: 4px; }
+.landmark-figure {
+  display: block;
+  width: clamp(88px, 12vw, 150px);
+  height: clamp(68px, 9vw, 115px);
+  object-fit: contain;
+  filter: drop-shadow(0 6px 10px #163b2f66);
+  transition: transform .3s ease;
+}
+.landmark-label { margin-top: 2px; border-color: #eeefd966; font-size: 12px; }
+.landmark:hover .landmark-figure,
+.landmark[aria-expanded=true] .landmark-figure { transform: translateY(-4px) scale(1.06); }
+.element-manzanilla .landmark-figure {
+  width: 88px;
+  height: 88px;
+  border: 3px solid #eee9cd;
+  border-radius: 12px 32px 12px 32px;
+  object-fit: cover;
+}
+.landscape-credit { font-size: 11px; color: #56664e; margin: 12px 4px 18px; }
+.landscape-credit a { text-decoration: underline; text-underline-offset: 3px; }
+.paisaje, .hero-photo { object-position: center 15%; }
+.escena-wrap[data-ambiente=bosque] .mist-layer { opacity: .9; }
+.territorio .escena-wrap[data-reading=noche] .paisaje { filter: brightness(.65) saturate(.75); }
+.territorio .escena-wrap[data-reading=fuego] .scene-shade {
+  background: linear-gradient(180deg,#15352f33,transparent 45%,#673d1a50);
+}
+.index-disclosure {
+  border-top: 1px solid #b9c9af;
+  border-bottom: 1px solid #b9c9af;
+}
+.index-disclosure > summary { padding: 18px 12px 18px 0; font-weight: 500; }
+.index-disclosure > summary span { display: block; font-size: 12px; color: #536a50; margin: 4px 0 0 18px; }
+.index-inner { padding: 8px 0 20px; }
+.reading-source > summary { font-size: 12px; min-height: 44px; color: #52664e; font-weight: 500; }
+.reading-source p { font-size: 12px; line-height: 1.6; }
+.reading-more > summary { font-size: 14px; font-weight: 500; }
+.concept-composition { display: flex; align-items: center; gap: 16px; }
+.concept-composition > img { width: 100px; height: 90px; flex: 0 0 100px; object-fit: contain; }
+.concept-composition > p { margin: 0; }
+.reflection-prompt {
+  border-left: 2px solid #a0ad77;
+  padding: 6px 0 6px 14px;
+  margin: 16px 0;
+  font-size: 14px;
+  color: #3e5c3c;
+}
+.botanical img { width: 150px; height: 154px; object-fit: cover; border-radius: 14px; margin: 12px 0; }
+.botanical summary { font-size: 13px; }
+.botanical p { font-size: 12px; }
+.provenance > summary { font-size: 15px; font-weight: 500; }
+.provenance p, .provenance li { font-size: 13px; line-height: 1.7; }
+.provenance li + li { margin-top: 14px; }
+.reflection > summary { font-size: 15px; font-weight: 500; }
+.learning-activity {
+  padding: 28px;
+  background: #edf0e2;
+  border-radius: 24px;
+  margin: 30px 0;
+}
+.learning-activity h3 {
+  font: 400 clamp(26px, 4vw, 34px)/1.15 Georgia, serif;
+  margin: 12px 0 16px;
+  max-width: 480px;
+}
+.learning-activity > p:not(.eyebrow) { max-width: 600px; font-size: 15px; }
+.activity-controls { display: flex; gap: 6px; margin: 24px 0 20px; }
+.activity-controls button {
+  flex: 1;
+  min-height: 48px;
+  padding: 10px;
+  border: 1px solid #b8c6a9;
+  border-radius: 14px;
+  background: #f9faf1;
+  color: #3f5b39;
+  font-size: 13px;
+  line-height: 1.3;
+}
+.activity-controls button[aria-pressed=true] { background: #36573d; color: #fffdf0; border-color: #36573d; }
+.activity-stage { display: grid; grid-template-columns: 150px 1fr; gap: 28px; align-items: center; min-height: 210px; }
+.activity-image { width: 150px; height: 132px; object-fit: contain; }
+.activity-stage h4 { font-size: 18px; font-weight: 600; margin: 0 0 12px; }
+.activity-stage p { font-size: 15px; max-width: 560px; }
+.activity-stage .reflection-prompt { font-size: 14px; margin-bottom: 0; }
+.nikuma-story > img { height: 290px; background: #e7ebd6; object-fit: contain; padding: 32px; }
+@media (max-width: 600px) {
+  .territorio .escena-wrap { min-height: 540px; height: min(74svh,650px); }
+  .territorio .panel-detalle { max-height: 56%; padding: 16px 16px 0; }
+  .territorio .pd-titulo { font-size: 22px; }
+  .territorio .pd-kogui { margin-top: 5px; margin-bottom: 7px; }
+  .territorio .pd-tabs { margin-bottom: 10px; }
+  .landmark-figure { width: 88px; height: 70px; }
+  .landmark-label { font-size: 10px; padding: 5px 7px; }
+  .element-manzanilla .landmark-figure { width: 66px; height: 66px; }
+  .concept-composition { gap: 10px; align-items: flex-start; }
+  .concept-composition > img { width: 68px; height: 68px; flex-basis: 68px; }
+  .concept-composition p { font-size: 14px; }
+  .learning-activity { padding: 22px 18px; margin: 26px -3px; border-radius: 22px; }
+  .learning-activity .eyebrow { font-size: 9px; }
+  .activity-controls { gap: 5px; }
+  .activity-controls button { font-size: 12px; padding: 10px 6px; }
+  .activity-stage { grid-template-columns: 1fr; gap: 12px; min-height: 330px; }
+  .activity-image { width: 110px; height: 90px; margin: 0 auto; }
+  .activity-stage h4 { font-size: 18px; }
+  .activity-stage p { font-size: 14px; }
+  .nikuma-story > img { height: 220px; padding: 24px; }
+}
+@media (max-width: 360px) {
+  .landmark-figure { width: 76px; height: 60px; }
+  .landmark-label { font-size: 9px; }
+  .concept-composition { display: block; }
+  .concept-composition > img { float: left; margin: 0 12px 6px 0; }
+}
