@@ -1,0 +1,27 @@
+{
+  "tipo": "DOM emulado; no prueba de renderizado",
+  "estado": "OK",
+  "grupos": 20,
+  "checks": [
+    "Inicialización: índice completo, paisaje y eje 1",
+    "Cada concepto: tres lecturas con contenido y cierre",
+    "Búsqueda con y sin tildes y estado sin coincidencias",
+    "Cambios de paisaje, URL de imagen y botones",
+    "Nikuma enlaza desde el paisaje a su eje completo",
+    "Los cuatro ejes funcionan y solo uno queda visible",
+    "Escape cierra y devuelve el foco",
+    "Pausa ambiental y reflexión sin puntuación",
+    "Entrada directa a cada eje y URL inválida",
+    "El índice por enlace directo activa el eje correcto",
+    "Gestos horizontales cambian paisaje; verticales y cancelados no",
+    "Preferencia de movimiento reducido inicia con animación pausada",
+    "Cada actividad ofrece tres miradas independientes y se puede revisitar",
+    "Todos los referentes visuales dinámicos existen y ya no hay orbes genéricos",
+    "Contenido breve primero; fuentes y profundización permanecen plegadas",
+    "Índice y créditos accesibles por enlace directo",
+    "Cada elemento del paisaje ejecuta su acción individualmente",
+    "Exploración del árbol: tres preguntas diferentes, sin datos personales",
+    "Sugerir otra mirada abre contenido y permite volver al control",
+    "Cuatro páginas sin la marca anterior, apoyo visible y número marcado correctamente"
+  ]
+}

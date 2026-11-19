@@ -5,10 +5,11 @@ const path=require('node:path');
 const vm=require('node:vm');
 const assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..');
+const legacyRoot=path.resolve(__dirname,'..','legacy_vanilla');
 const checks=[];
 function check(name,fn){fn();checks.push(name);}
 function setup(url='http://127.0.0.1:8000/aprender.html',reducedMotion=false){
-  const {window}=parseHTML(fs.readFileSync(path.join(root,'aprender.html'),'utf8'));
+  const {window}=parseHTML(fs.readFileSync(path.join(legacyRoot,'aprender.html'),'utf8'));
   const doc=window.document;
   window.matchMedia=()=>({matches:reducedMotion,addEventListener(){}});
   window.HTMLElement.prototype.focus=function(){this.ownerDocument.testFocus=this;};
@@ -115,9 +116,9 @@ check('Sugerir otra mirada abre contenido y permite volver al control',()=>{
 });
 check('Cuatro páginas sin la marca anterior, apoyo visible y número marcado correctamente',()=>{
   for(const name of ['index.html','aprender.html','apoyo.html','acerca.html']){
-    const html=fs.readFileSync(path.join(root,name),'utf8');assert.ok(!/\bALUNA\b/i.test(html));const page=parseHTML(html).document;assert.ok(page.querySelector('nav.app-nav a[href="apoyo.html"]'));
+    const html=fs.readFileSync(path.join(legacyRoot,name),'utf8');assert.ok(!/\bALUNA\b/i.test(html));const page=parseHTML(html).document;assert.ok(page.querySelector('nav.app-nav a[href="apoyo.html"]'));
   }
-  assert.ok(parseHTML(fs.readFileSync(path.join(root,'apoyo.html'),'utf8')).document.querySelector('a[href="tel:106"]'));
+  assert.ok(parseHTML(fs.readFileSync(path.join(legacyRoot,'apoyo.html'),'utf8')).document.querySelector('a[href="tel:106"]'));
 });
 if(require.main===module)console.log(JSON.stringify({tipo:'DOM emulado; no prueba de renderizado',estado:'OK',grupos:checks.length,checks},null,2));
 
