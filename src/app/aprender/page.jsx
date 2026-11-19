@@ -4,17 +4,17 @@ import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 
-import contentData from '@/data/content.json';
-import EjesNav from '@/components/aprender/EjesNav';
-import TerritorioScene from '@/components/aprender/TerritorioScene';
-import ConceptIndex from '@/components/aprender/ConceptIndex';
-import TreeStudy from '@/components/aprender/TreeStudy';
-import PreviousPhaseActivity from '@/components/aprender/PreviousPhaseActivity';
+import contentData from '../../data/content.json';
+import EjesNav from '../../components/aprender/EjesNav';
+import TerritorioScene from '../../components/aprender/TerritorioScene';
+import ConceptIndex from '../../components/aprender/ConceptIndex';
+import TreeStudy from '../../components/aprender/TreeStudy';
+import PreviousPhaseActivity from '../../components/aprender/PreviousPhaseActivity';
 
-import Activity1DisarmDiscussion from '@/components/activities/Activity1DisarmDiscussion';
-import Activity2BuildConversation from '@/components/activities/Activity2BuildConversation';
-import Activity3BranchingStory from '@/components/activities/Activity3BranchingStory';
-import Activity4ContextLens from '@/components/activities/Activity4ContextLens';
+import Activity1DisarmDiscussion from '../../components/activities/Activity1DisarmDiscussion';
+import Activity2BuildConversation from '../../components/activities/Activity2BuildConversation';
+import Activity3BranchingStory from '../../components/activities/Activity3BranchingStory';
+import Activity4ContextLens from '../../components/activities/Activity4ContextLens';
 
 function AprenderContent() {
   const searchParams = useSearchParams();
@@ -85,7 +85,6 @@ function AprenderContent() {
     }
     setCurrentConceptId(conceptId);
 
-    // Ensure we are viewing Eje 1 (where the scene is)
     if (activeAxis !== '1') {
       setActiveAxis('1');
     }

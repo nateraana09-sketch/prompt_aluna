@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import { buscar } from '@/lib/busqueda';
+import { buscar } from '../../lib/busqueda';
 
 export default function ConceptIndex({ data, onSelectConcept, defaultOpen = false }) {
   const [query, setQuery] = useState('');

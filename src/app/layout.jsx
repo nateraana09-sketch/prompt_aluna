@@ -1,6 +1,6 @@
-import '@/styles/globals.css';
-import AppHeader from '@/components/layout/AppHeader';
-import AppNav from '@/components/layout/AppNav';
+import '../styles/globals.css';
+import AppHeader from '../components/layout/AppHeader';
+import AppNav from '../components/layout/AppNav';
 
 export const metadata = {
   title: 'Prototipo de bienestar · Seminario Intercultural · Universidad del Magdalena',
