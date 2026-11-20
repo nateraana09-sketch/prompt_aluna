@@ -44,7 +44,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible {
 .explore-intro {padding:24px 2px 12px}
 .explore-intro h2 {font-size:38px;margin-bottom:10px}
 .explore-intro>p:last-child {font-size:14px;max-width:350px}
-.ejes-nav {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px;border:0;margin:16px 0 20px;scroll-margin-top:85px}
+.ejes-nav {display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px;border:0;margin:16px 0 20px;scroll-margin-top:85px}
 .ejes-nav button,.ejes-nav button:nth-child(-n+2) {border:1px solid #aab292;border-radius:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;padding:10px 4px;min-height:68px;font-size:12px;text-align:center;background:#e3dac3}
 .ejes-nav button:last-child {border:1px solid #aab292}
 .ejes-nav button>span:first-child {font-size:10px;color:inherit;opacity:.8}
@@ -121,7 +121,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible {
  .entry-copy {padding:120px 60px 65px}.entry-copy h2 {font-size:74px}
  .entry-invitation {padding:46px 20px}.entry-invitation h2 {font-size:48px}
  .journey-menu>a {grid-template-columns:125px 1fr 30px;gap:28px}.journey-menu>a>img {width:125px;height:100px}.journey-menu h3 {font-size:22px}
- .explore-intro h2 {font-size:56px}.ejes-nav {max-width:700px}.ejes-nav button {flex-direction:row;gap:14px;font-size:14px;min-height:60px}
+ .explore-intro h2 {font-size:56px}.ejes-nav {max-width:850px}.ejes-nav button {flex-direction:row;gap:14px;font-size:14px;min-height:60px}
  .territorio .escena-wrap {height:650px;border-radius:130px 130px 30px 30px}
  .landmark-figure {width:125px;height:105px}.landmark-label {font-size:13px}.element-niebla .landmark-figure {width:160px}.element-fuego .landmark-figure {width:130px;height:115px}
  .territorio .panel-detalle {inset:110px 25px 25px auto;width:420px;max-height:calc(100% - 135px);border-radius:24px}

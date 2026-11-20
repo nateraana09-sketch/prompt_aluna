@@ -5,7 +5,8 @@ export default function EjesNav({ activeAxis, onSelectAxis }) {
     { id: '1', number: '01', label: 'Reconocer' },
     { id: '2', number: '02', label: 'Cuidar' },
     { id: '3', number: '03', label: 'Apoyo' },
-    { id: '4', number: '04', label: 'Contexto' }
+    { id: '4', number: '04', label: 'Contexto' },
+    { id: '5', number: '05', label: 'Fuentes' }
   ];
 
   return (

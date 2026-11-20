@@ -20,7 +20,7 @@ function AprenderContent() {
   const searchParams = useSearchParams();
   const initialEje = searchParams.get('eje') || '1';
 
-  const [activeAxis, setActiveAxis] = useState(['1', '2', '3', '4'].includes(initialEje) ? initialEje : '1');
+  const [activeAxis, setActiveAxis] = useState(['1', '2', '3', '4', '5'].includes(initialEje) ? initialEje : '1');
   const [currentScene, setCurrentScene] = useState('bosque');
   const [currentConceptId, setCurrentConceptId] = useState(null);
   const [reflectionOpen, setReflectionOpen] = useState(false);
@@ -29,7 +29,7 @@ function AprenderContent() {
 
   useEffect(() => {
     const ejeParam = searchParams.get('eje');
-    if (ejeParam && ['1', '2', '3', '4'].includes(ejeParam)) {
+    if (ejeParam && ['1', '2', '3', '4', '5'].includes(ejeParam)) {
       setActiveAxis(ejeParam);
     }
   }, [searchParams]);
@@ -39,7 +39,8 @@ function AprenderContent() {
     if (hash === '#indice') {
       setIndexDefaultOpen(true);
       setActiveAxis('1');
-    } else if (hash === '#procedencia') {
+    } else if (hash === '#procedencia' || hash === '#fuentes') {
+      setActiveAxis('5');
       setProvenanceOpen(true);
     }
 
@@ -47,7 +48,8 @@ function AprenderContent() {
       if (window.location.hash === '#indice') {
         setIndexDefaultOpen(true);
         setActiveAxis('1');
-      } else if (window.location.hash === '#procedencia') {
+      } else if (window.location.hash === '#procedencia' || window.location.hash === '#fuentes') {
+        setActiveAxis('5');
         setProvenanceOpen(true);
       }
     };
@@ -414,7 +416,229 @@ function AprenderContent() {
         </Link>
       </section>
 
-      {/* Fuentes y créditos */}
+      {/* Eje 05 · Fuentes y créditos centralizados */}
+      <section
+        id="eje5"
+        className="eje-content"
+        aria-labelledby="eje5-title"
+        hidden={activeAxis !== '5'}
+      >
+        <p className="eyebrow">Eje 05 · Fuentes y créditos</p>
+        <h2 id="eje5-title">Fuentes, referencias y créditos del proyecto.</h2>
+        <p className="lead">
+          Centralización de fuentes documentales, referencias institucionales, atribuciones de imágenes y reconocimientos metodológicos de Prototipo de bienestar.
+        </p>
+
+        <div className="reading-rows">
+          {/* Bloque 1: Fuentes bibliográficas e investigación documental */}
+          <details open>
+            <summary>Fuentes documentales e investigación</summary>
+            <p>
+              Documentación técnica y recopilaciones de campo que respaldan los contenidos y términos documentales:
+            </p>
+            {contentData.fuentes?.map((f, i) => (
+              <details key={i} className="reading-source" open>
+                <summary>{f.titulo}</summary>
+                <p>{f.detalle}</p>
+              </details>
+            ))}
+          </details>
+
+          {/* Bloque 2: Referencias normativas e institucionales (de Apoyo) */}
+          <details open>
+            <summary>Referencias institucionales y teleorientación (Apoyo)</summary>
+            <p>
+              Fuentes oficiales y entidades consultadas para las rutas de orientación y cuidado:
+            </p>
+            <details className="reading-source" open>
+              <summary>Línea 106 · Ministerio de Salud y Protección Social</summary>
+              <p>
+                Recurso de teleorientación en salud mental del Ministerio de Salud. La ruta nacional corresponde a territorios sin una línea 106 propia; donde existe una línea local, la atención puede canalizarse territorialmente.
+              </p>
+              <p>
+                La circular ministerial de febrero de 2026 mantiene esta ruta nacional. El directorio publicado en agosto de 2025 no registra una línea departamental activa para Magdalena; ese dato histórico no garantiza la situación local actual. Consulta el directorio para tu ubicación. La conectividad y el enrutamiento pueden variar; no se garantiza conexión ni respuesta inmediata.
+              </p>
+              <p>
+                <a
+                  className="text-link"
+                  href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/ET/directorio-salud-mental-prevencion-suicidio-minsalud.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Directorio oficial nacional y territorial ↗
+                </a>
+              </p>
+              <p>
+                <a
+                  className="text-link"
+                  href="https://www.minsalud.gov.co/Normatividad_Nuevo/Circular%20Externa%20No%20002%20de%202026.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Circular del Ministerio ↗
+                </a>
+              </p>
+            </details>
+            <details className="reading-source" open>
+              <summary>Bienestar Universitario · Universidad del Magdalena</summary>
+              <p>
+                La Dirección de Bienestar Universitario informa sobre sus servicios de Desarrollo Humano y atención en Psicología. Consulta con la institución la disponibilidad y los requisitos vigentes.
+              </p>
+              <p>
+                <a
+                  className="text-link"
+                  href="https://www.unimagdalena.edu.co/UnidadesOrganizativas/Direccion/10"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Consultar información institucional ↗
+                </a>
+              </p>
+              <p className="photo-note">
+                Página oficial consultada el 17 de noviembre de 2026. Abrirás un sitio externo. Este enlace no es un servicio de emergencia.
+              </p>
+            </details>
+          </details>
+
+          {/* Bloque 3: Atribuciones de imágenes fotográficas y licencias */}
+          <details open>
+            <summary>Fotografías y licencias de uso</summary>
+            <ul>
+              <li>
+                <strong>Sierra Nevada de Santa Marta (sierra-nevada-taggen.jpg):</strong>{' '}
+                <a
+                  href="https://commons.wikimedia.org/wiki/File:Sierra_Nevada_de_Santa_Marta.jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Taggen, 2011
+                </a>{' '}
+                ·{' '}
+                <a
+                  href="https://creativecommons.org/licenses/by-sa/3.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY-SA 3.0
+                </a>
+                . Recorte y ajuste de luminosidad en pantalla; adaptación bajo la misma licencia.
+              </li>
+              <li>
+                <strong>Referencia de manzanilla (manzanilla-tulumnes.jpg):</strong>{' '}
+                <a
+                  href="https://commons.wikimedia.org/wiki/File:Matricaria_chamomilla_flower.jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Tulumnes, 2016
+                </a>{' '}
+                ·{' '}
+                <a
+                  href="https://creativecommons.org/licenses/by-sa/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY-SA 4.0
+                </a>
+                . Rotulada como Matricaria chamomilla por el autor; no identifica la planta concreta de Judith. Recorte en pantalla bajo la misma licencia.
+              </li>
+              <li>
+                <strong>Neblina (bosque-neblina.jpg):</strong>{' '}
+                <a
+                  href="https://www.pexels.com/photo/an-aerial-photography-of-green-trees-on-a-foggy-mountain-6965010/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Mikhail Nilov
+                </a>
+                . Paisaje ilustrativo de naturaleza; no se atribuye a la Sierra Nevada.{' '}
+                <a href="https://www.pexels.com/license/" target="_blank" rel="noopener noreferrer">
+                  Licencia Pexels
+                </a>
+                .
+              </li>
+              <li>
+                <strong>Río (rio-bosque.jpg):</strong>{' '}
+                <a
+                  href="https://www.pexels.com/photo/river-on-the-forest-photography-2189708/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Emre Can Acer
+                </a>
+                . Paisaje ilustrativo de naturaleza; no se atribuye a la Sierra.{' '}
+                <a href="https://www.pexels.com/license/" target="_blank" rel="noopener noreferrer">
+                  Licencia Pexels
+                </a>
+                .
+              </li>
+              <li>
+                <strong>Flores (flores-luz.jpg):</strong>{' '}
+                <a
+                  href="https://www.pexels.com/photo/close-up-of-flowers-in-a-meadow-12811058/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Irina Iriser
+                </a>
+                . Paisaje ilustrativo; conservado como recurso gráfico.{' '}
+                <a href="https://www.pexels.com/license/" target="_blank" rel="noopener noreferrer">
+                  Licencia Pexels
+                </a>
+                .
+              </li>
+            </ul>
+          </details>
+
+          {/* Bloque 4: Ilustraciones y recursos vectoriales */}
+          <details open>
+            <summary>Ilustraciones vectoriales y estudios gráficos</summary>
+            <ul>
+              <li>
+                <strong>Elementos del paisaje (elemento-*.svg):</strong> Ilustraciones originales de niebla, luna, fuego, tierra, árbol, flor, agua, viento y conversación, creadas para Prototipo de bienestar. No representan símbolos tradicionales ni reproducen especies botánicas.
+              </li>
+              <li>
+                <strong>Estudios de guía visual (guia-rama.svg y guia-felino.svg):</strong> Dibujos vectoriales originales del proyecto. La rama señala dónde actuar sin especie botánica atribuida; el felino es una propuesta gráfica de estudio sin significado cultural atribuido. Ninguno es una figura tradicional ni interpreta lo que sientes.
+              </li>
+            </ul>
+          </details>
+
+          {/* Bloque 5: Referencias metodológicas por eje temático */}
+          <details open>
+            <summary>Referencias conceptuales y metodológicas por eje</summary>
+            <ul>
+              <li>
+                <strong>Eje 01 (Reconocer):</strong> Fuente: Documento técnico 2024 §7.2 y §8.1; Recopilación §3. Frases y agrupación: propuesta pedagógica del equipo, no traducción cultural. Sheishe (rabia) y Nusa (rabia que llega al maltrato) según las fuentes.
+              </li>
+              <li>
+                <strong>Eje 02 (Cuidar):</strong> Fuente: Documento técnico 2024 §6.3 (Nikuma: vida saludable y organización política, social y cultural), §8.1 y §8.3 (Dulazhikshiji: diálogo y acuerdos), §8.5 (trabajos colectivos y puentes), §7.1 (principios de sentido: pensamiento, palabra, escucha y visión), §9 (diagrama de cuidado en relación) y Recopilación §3.
+              </li>
+              <li>
+                <strong>Eje 03 (Acompañar):</strong> Fuente: Recopilación §3, §5 y §8; Documento técnico 2024 §7.2 (sueños y consulta tradicional), §7.3.5 (malestar emocional sin umbral de días) y §8.6–8.8 (rutas de acompañamiento y libre elección de vínculo seguro).
+              </li>
+              <li>
+                <strong>Eje 04 (Contexto):</strong> Fuente: Documento técnico 2024 §6.9.1, §7.2 y §7.3.3; Recopilación §6–7. Jañu (hoja de coca), nuake (tabaco) y sugi (poporo) en sus contextos documentados de desarrollo masculino y responsabilidad; no son indicaciones de uso ni afirmación de inocuidad.
+              </li>
+            </ul>
+          </details>
+
+          {/* Bloque 6: Marco institucional y salvaguardas (de Acerca) */}
+          <details open>
+            <summary>Marco institucional, propósito y salvaguardas (Acerca)</summary>
+            <p>
+              <strong>Seminario Intercultural · Universidad del Magdalena:</strong> Experiencia de psicoeducación y orientación intercultural, pensada principalmente para hombres jóvenes Kogui de 18 a 28 años. Acerca experiencias emocionales y posibilidades de cuidado desde contenidos documentados y actividades educativas.
+            </p>
+            <p>
+              <strong>Identidad provisional:</strong> Prototipo de bienestar.
+            </p>
+            <p>
+              <strong>Límites y alcance:</strong> Sus contenidos son informativos y educativos. No realiza diagnósticos ni evaluaciones clínicas, no ofrece terapia ni sustituye la atención de profesionales o instituciones de salud. No solicita cuentas, no almacena respuestas personales ni genera perfiles.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      {/* Fuentes y créditos generales (accesible por ancla #procedencia) */}
       <details
         id="procedencia"
         className="provenance"
