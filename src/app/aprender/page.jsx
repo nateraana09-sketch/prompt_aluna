@@ -24,7 +24,6 @@ function AprenderContent() {
   const [currentScene, setCurrentScene] = useState('bosque');
   const [currentConceptId, setCurrentConceptId] = useState(null);
   const [reflectionOpen, setReflectionOpen] = useState(false);
-  const [provenanceOpen, setProvenanceOpen] = useState(false);
   const [indexDefaultOpen, setIndexDefaultOpen] = useState(false);
 
   useEffect(() => {
@@ -41,7 +40,6 @@ function AprenderContent() {
       setActiveAxis('1');
     } else if (hash === '#procedencia' || hash === '#fuentes') {
       setActiveAxis('5');
-      setProvenanceOpen(true);
     }
 
     const handleHash = () => {
@@ -50,7 +48,6 @@ function AprenderContent() {
         setActiveAxis('1');
       } else if (window.location.hash === '#procedencia' || window.location.hash === '#fuentes') {
         setActiveAxis('5');
-        setProvenanceOpen(true);
       }
     };
     window.addEventListener('hashchange', handleHash);
@@ -182,10 +179,6 @@ function AprenderContent() {
               <p>
                 <strong>Sheishe</strong> nombra la rabia en el informe; <strong>Nusa</strong> se refiere a cuando ya se llega al maltrato. Sentir una emoción no justifica una agresión. El diálogo y los acuerdos aparecen en §8.1 como principios de convivencia.
               </p>
-              <details className="reading-source">
-                <summary>Sobre esta lectura</summary>
-                <p>Situación y lectura propuestas por el equipo. No es una evaluación ni genera un resultado personal.</p>
-              </details>
             </div>
           )}
         </details>
@@ -214,12 +207,6 @@ function AprenderContent() {
             <p>
               El bienestar no se limita a lo individual. La escucha, los acuerdos y la vida compartida permiten pensar el cuidado en relación con otras personas y con el entorno.
             </p>
-            <details className="reading-source">
-              <summary>Referencia cultural: Nikuma</summary>
-              <p>
-                El documento técnico de 2024, §6.3, emplea esta grafía y la vincula con vida saludable y organización política, social y cultural. Es una definición de esa fuente. Su uso público, su escritura y su pertinencia como posible nombre requieren validación; no es la identidad del producto.
-              </p>
-            </details>
           </div>
         </div>
 
@@ -236,51 +223,30 @@ function AprenderContent() {
           <span>Organización y linajes</span>
         </div>
 
-        <details className="reading-source">
-          <summary>Sobre esta lectura</summary>
-          <p>Diagrama del equipo basado en §6.3 y §9; no representa una cartografía comunitaria.</p>
-        </details>
-
         <div className="reading-rows">
           <details>
             <summary>El consejo y la educación propia</summary>
             <p>
               El informe sitúa el consejo de los mayores como orientación a lo largo de la vida. Incluye aprender a cuidar la palabra y la relación con el entorno. No se presenta como una receta individual ni como una orden de callar el sufrimiento.
             </p>
-            <details className="reading-source">
-              <summary>Sobre esta lectura</summary>
-              <p>Documento §8.1 y §8.3.</p>
-            </details>
           </details>
           <details>
             <summary>Los vínculos también cuidan</summary>
             <p>
               Adecuar caminos, construir puentes y espacios comunitarios aparecen como trabajos colectivos relacionados con bienestar. No son actividades prescritas por Prototipo de bienestar: tienen contexto y organización propios.
             </p>
-            <details className="reading-source">
-              <summary>Sobre esta lectura</summary>
-              <p>Documento §8.5.</p>
-            </details>
           </details>
           <details>
             <summary>Pensamiento, palabra, escucha y visión</summary>
             <p>
               El documento describe cuatro principios de sentido. Su cuidado se relaciona con la armonía personal, social, comunitaria y territorial.
             </p>
-            <details className="reading-source">
-              <summary>Sobre esta lectura</summary>
-              <p>Documento §7.1.</p>
-            </details>
           </details>
           <details>
             <summary>Flores, viento y plantas: mirar con atención</summary>
             <p>
               La recopilación atribuye a Judith estas imágenes para hablar de frescura, alivio y vida saludable. La manzanilla es uno de los nombres recogidos. Su especie exacta no está confirmada; aquí se muestra una referencia posible, sin recomendar usos medicinales.
             </p>
-            <details className="reading-source">
-              <summary>Sobre esta lectura</summary>
-              <p>Recopilación §3. Asociación pendiente de validación directa.</p>
-            </details>
           </details>
         </div>
 
@@ -316,20 +282,12 @@ function AprenderContent() {
             <p>
               Una tristeza que preocupa, la dificultad para dormir tras una pérdida o el aislamiento merecen una conversación y acompañamiento. No hay en este prototipo un número de días ni una lista para determinar un trastorno.
             </p>
-            <details className="reading-source">
-              <summary>Sobre esta lectura</summary>
-              <p>Recopilación §3 y §5; documento §7.3.5. Orientación editorial sin evaluación.</p>
-            </details>
           </details>
           <details>
             <summary>Los sueños en su contexto</summary>
             <p>
               El documento reconoce los sueños dentro del cuidado preventivo y sitúa su interpretación bajo la consulta tradicional. Prototipo de bienestar no interpreta sueños ni simula la consulta del mamo o la saka.
             </p>
-            <details className="reading-source">
-              <summary>Sobre esta lectura</summary>
-              <p>Documento §7.2.</p>
-            </details>
           </details>
         </div>
 
@@ -347,11 +305,6 @@ function AprenderContent() {
             <p>El diálogo intercultural puede articular el cuidado propio con profesionales. No tienes que agotar una ruta antes de acceder a atención.</p>
           </li>
         </ol>
-
-        <details className="reading-source">
-          <summary>Sobre esta lectura</summary>
-          <p>Fuentes: recopilación §8 y documento §8.6–8.8. La posibilidad de elegir un vínculo seguro y acceder directamente a salud es orientación del equipo.</p>
-        </details>
 
         <Link className="btn btn-acento" href="/apoyo">
           Ver opciones de acompañamiento ↗
@@ -379,10 +332,6 @@ function AprenderContent() {
         <p>
           El informe identifica el acceso fácil y desinformado a sustancias como una preocupación. También reconoce limitaciones de registro: la ausencia de datos no permite concluir ausencia de situaciones ni inventar cifras.
         </p>
-        <details className="reading-source">
-          <summary>Sobre esta lectura</summary>
-          <p>Documento §7.2 y §7.3.3.</p>
-        </details>
 
         <div className="context-split">
           <article>
@@ -394,10 +343,6 @@ function AprenderContent() {
             <p>
               Son plantas y objetos con contextos distintos; el poporo no es una sustancia. Esta descripción no constituye una indicación de uso ni una afirmación de inocuidad.
             </p>
-            <details className="reading-source">
-              <summary>Sobre esta lectura</summary>
-              <p>Documento §6.9.1; recopilación §6–7.</p>
-            </details>
           </article>
           <article>
             <span className="eyebrow">Para cuidar</span>
@@ -423,6 +368,8 @@ function AprenderContent() {
         aria-labelledby="eje5-title"
         hidden={activeAxis !== '5'}
       >
+        <div id="procedencia" />
+        <div id="fuentes" />
         <p className="eyebrow">Eje 05 · Fuentes y créditos</p>
         <h2 id="eje5-title">Fuentes, referencias y créditos del proyecto.</h2>
         <p className="lead">
@@ -637,98 +584,6 @@ function AprenderContent() {
           </details>
         </div>
       </section>
-
-      {/* Fuentes y créditos generales (accesible por ancla #procedencia) */}
-      <details
-        id="procedencia"
-        className="provenance"
-        open={provenanceOpen}
-        onToggle={(e) => setProvenanceOpen(e.currentTarget.open)}
-      >
-        <summary>Fuentes y créditos</summary>
-        <p>
-          Las actividades y las ilustraciones son propuestas educativas de Prototipo de bienestar. Las asociaciones culturales conservan los matices de las fuentes y necesitan revisión comunitaria. Puedes consultar las precisiones dentro de cada lectura.
-        </p>
-
-        <div id="fuentes">
-          {contentData.fuentes?.map((f, i) => (
-            <details key={i}>
-              <summary>{f.titulo}</summary>
-              <p>{f.detalle}</p>
-            </details>
-          ))}
-        </div>
-
-        <details>
-          <summary>Fotografías e ilustraciones</summary>
-          <ul>
-            <li>
-              Sierra Nevada de Santa Marta:{' '}
-              <a
-                href="https://commons.wikimedia.org/wiki/File:Sierra_Nevada_de_Santa_Marta.jpg"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Taggen, 2011
-              </a>{' '}
-              ·{' '}
-              <a
-                href="https://creativecommons.org/licenses/by-sa/3.0/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                CC BY-SA 3.0
-              </a>
-              . Recorte y ajuste de luminosidad en pantalla; adaptación bajo la misma licencia.
-            </li>
-            <li>
-              Referencia de manzanilla:{' '}
-              <a
-                href="https://commons.wikimedia.org/wiki/File:Matricaria_chamomilla_flower.jpg"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Tulumnes, 2016
-              </a>{' '}
-              ·{' '}
-              <a
-                href="https://creativecommons.org/licenses/by-sa/4.0/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                CC BY-SA 4.0
-              </a>
-              . Rotulada como Matricaria chamomilla por el autor; no identifica la planta concreta de Judith. Recorte en pantalla bajo la misma licencia.
-            </li>
-            <li>
-              Neblina:{' '}
-              <a
-                href="https://www.pexels.com/photo/an-aerial-photography-of-green-trees-on-a-foggy-mountain-6965010/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Mikhail Nilov
-              </a>
-              . Río:{' '}
-              <a
-                href="https://www.pexels.com/photo/river-on-the-forest-photography-2189708/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Emre Can Acer
-              </a>
-              . Paisajes ilustrativos; no se atribuyen a la Sierra.{' '}
-              <a href="https://www.pexels.com/license/" target="_blank" rel="noopener noreferrer">
-                Licencia Pexels
-              </a>
-              .
-            </li>
-            <li>
-              Ilustraciones de niebla, luna, fuego, tierra, árbol, flor, agua, viento y conversación: creadas para Prototipo de bienestar. No representan símbolos tradicionales ni reproducen especies botánicas.
-            </li>
-          </ul>
-        </details>
-      </details>
     </>
   );
 }

@@ -107,18 +107,6 @@ export default function ConceptDetailPanel({ concept, onClose, onGoToActivity })
               <p>{concept.significado}</p>
             </details>
 
-            <details className="reading-source">
-              <summary>Fuentes y matices</summary>
-              <p className="source">{concept.fuente}</p>
-              {concept.pendiente && <p>{concept.pendiente}</p>}
-              <p>
-                {concept.termino_documental
-                  ? `Referencia lingüística en las fuentes: ${concept.termino_documental}. ${concept.referencia_linguistica}`
-                  : 'No se asigna una traducción en lengua Kogui.'}
-              </p>
-              <p>Las ilustraciones son propuestas visuales del proyecto; no símbolos tradicionales.</p>
-            </details>
-
             <button
               type="button"
               className="play-primary"

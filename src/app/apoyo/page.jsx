@@ -59,28 +59,6 @@ export default function ApoyoPage() {
         <a className="btn btn-acento" href="tel:106">
           Llamar al 106
         </a>
-        <details>
-          <summary>Cobertura y fuente de la información</summary>
-          <p>
-            La circular ministerial de febrero de 2026 mantiene esta ruta nacional. El directorio publicado en agosto de 2025 no registra una línea departamental activa para Magdalena; ese dato histórico no garantiza la situación local actual. Consulta el directorio para tu ubicación. La conectividad y el enrutamiento pueden variar; no se garantiza conexión ni respuesta inmediata.
-          </p>
-          <a
-            className="text-link"
-            href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/ET/directorio-salud-mental-prevencion-suicidio-minsalud.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Directorio oficial nacional y territorial ↗
-          </a>
-          <a
-            className="text-link"
-            href="https://www.minsalud.gov.co/Normatividad_Nuevo/Circular%20Externa%20No%20002%20de%202026.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Circular del Ministerio ↗
-          </a>
-        </details>
         <p className="quiet-note">
           Si hay peligro inmediato, busca compañía y atención presencial urgente. Si no logras comunicarte, acude a un servicio de salud.
         </p>
