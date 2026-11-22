@@ -17,7 +17,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body>
-        <div className="app-bg-fixed" aria-hidden="true" />
         <AppHeader />
         <main className="container" id="contenido">
           {children}
