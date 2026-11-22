@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import SubtemaSquare from '../icons/SubtemaIcons';
 
 export default function ConceptDetailPanel({ concept, onClose, onGoToActivity }) {
   const [activeTab, setActiveTab] = useState('significado');
@@ -91,12 +92,12 @@ export default function ConceptDetailPanel({ concept, onClose, onGoToActivity })
       <div className="pd-cuerpo" id="pd-cuerpo">
         {activeTab === 'significado' && (
           <>
-            <div className="concept-composition">
-              <img
-                src={`/assets/img/elemento-${concept.visual}.svg`}
-                alt="Ilustración educativa"
-                width={172}
-                height={132}
+            <div className="concept-composition" style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
+              <SubtemaSquare
+                tipo={String(concept.eje) === '1' ? 'anillos' : String(concept.eje) === '2' ? 'hojas' : String(concept.eje) === '3' ? 'hongos' : 'montana'}
+                bg="niebla"
+                size={84}
+                alt={`Subtema ${concept.nombre}`}
               />
               <p>{concept.resumen}</p>
             </div>

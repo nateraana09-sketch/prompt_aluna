@@ -1,8 +1,9 @@
 import Link from 'next/link';
+import SubtemaSquare from '../components/icons/SubtemaIcons';
 
 export const metadata = {
-  title: 'Inicio · Prototipo de bienestar · Universidad del Magdalena',
-  description: 'Experiencia digital de psicoeducación y orientación intercultural para jóvenes, desde los saberes del pueblo Kogui de la Sierra Nevada.'
+  title: 'Inicio · El territorio vivo · Psicoeducación Intercultural',
+  description: 'Experiencia digital de psicoeducación y orientación intercultural para jóvenes, desde los saberes de la Sierra Nevada.'
 };
 
 export default function HomePage() {
@@ -18,7 +19,7 @@ export default function HomePage() {
         />
         <div className="entry-shade" />
         <div className="entry-copy">
-          <p className="eyebrow">Prototipo de bienestar · Identidad provisional</p>
+          <p className="eyebrow">El territorio vivo · Psicoeducación Intercultural</p>
           <h2>
             Un momento<br />
             para mirar<br />
@@ -54,7 +55,7 @@ export default function HomePage() {
         <h2 id="journey-title">Elige por dónde empezar</h2>
 
         <Link href="/aprender?eje=1">
-          <img src="/assets/img/elemento-niebla.svg" width={172} height={132} alt="" />
+          <SubtemaSquare tipo="anillos" bg="niebla" size={68} alt="Subtema: Reconocer las emociones" />
           <div>
             <span>01 · Reconocer</span>
             <h3>Reconocimiento y comprensión de las emociones.</h3>
@@ -63,7 +64,7 @@ export default function HomePage() {
         </Link>
 
         <Link href="/aprender?eje=2">
-          <img src="/assets/img/elemento-arbol.svg" width={172} height={132} alt="" />
+          <SubtemaSquare tipo="hojas" bg="musgo" size={68} alt="Subtema: Cuidar y regular" />
           <div>
             <span>02 · Cuidar</span>
             <h3>Regulación emocional, bienestar y autocuidado.</h3>
@@ -72,19 +73,19 @@ export default function HomePage() {
         </Link>
 
         <Link href="/aprender?eje=3">
-          <img src="/assets/img/elemento-agua.svg" width={172} height={132} alt="" />
+          <SubtemaSquare tipo="hongos" bg="niebla" size={68} alt="Subtema: Redes de apoyo" />
           <div>
-            <span>03 · Buscar compañía</span>
+            <span>03 · Apoyo</span>
             <h3>Comprensión del malestar emocional y búsqueda de apoyo.</h3>
           </div>
           <b aria-hidden="true">↗</b>
         </Link>
 
         <Link href="/aprender?eje=4">
-          <img src="/assets/img/elemento-tierra.svg" width={172} height={132} alt="" />
+          <SubtemaSquare tipo="montana" bg="terracota" size={68} alt="Subtema: Sustancias y territorio" />
           <div>
-            <span>04 · Comprender el contexto</span>
-            <h3>Sustancias psicoactivas y cuidado.</h3>
+            <span>04 · Sustancias</span>
+            <h3>Sustancias psicoactivas y cuidado en el contexto territorial.</h3>
           </div>
           <b aria-hidden="true">↗</b>
         </Link>

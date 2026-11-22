@@ -322,7 +322,7 @@ function AprenderContent() {
         aria-labelledby="eje4-title"
         hidden={activeAxis !== '4'}
       >
-        <p className="eyebrow">Eje 04 · Informarse</p>
+        <p className="eyebrow">Eje 04 · Sustancias</p>
         <h2 id="eje4-title">Sustancias psicoactivas y cuidado.</h2>
         <p className="lead">Comprender el contexto también es cuidar.</p>
 

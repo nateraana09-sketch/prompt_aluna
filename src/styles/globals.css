@@ -4,8 +4,144 @@
 @import './experiencia.css';
 @import './participacion.css';
 
-/* Next.js & React specific polish */
+/* ═══════════════════════════════════════════════════════════════
+   EL TERRITORIO VIVO · PSICOEDUCACIÓN INTERCULTURAL
+   Sistema de diseño — Paleta Colores de Tierra y Tipografía
+   ═══════════════════════════════════════════════════════════════ */
+
+:root {
+  /* Paleta oficial Colores de Tierra */
+  --crema:          #F5EFE3; /* fondo */
+  --cafe-profundo:  #3B2A1E; /* texto y títulos */
+  --verde-musgo:    #4F6B3A; /* color base */
+  --terracota:      #9A4F28; /* botones y enlaces */
+  --verde-niebla:   #DDE5D0; /* tarjetas */
+
+  /* Mapeo de tokens heredados hacia la nueva identidad */
+  --tierra-oscura:  var(--cafe-profundo);
+  --tierra:         var(--cafe-profundo);
+  --ink:            var(--cafe-profundo);
+  --texto:          var(--cafe-profundo);
+  --texto-medio:    #544234;
+  --texto-suave:    #6D5B4D;
+  --crema-fondo:    var(--crema);
+  --paper:          var(--crema);
+  --sup-calida:     var(--crema);
+  --sup-verde:      var(--verde-niebla);
+  --verde-medio:    var(--verde-musgo);
+  --verde-oscuro:   #344826;
+  --line:           #C9D4BD;
+  --linea-suave:    #D5DEC8;
+
+  /* Tipografías propuestas (configurables si se requiere ajustarlas más adelante) */
+  --fuente-titulos: var(--fuente-titulos, 'Fraunces', Georgia, serif);
+  --fuente-cuerpo:  var(--fuente-cuerpo, 'Source Sans 3', system-ui, -apple-system, sans-serif);
+}
+
+/* Aplicación tipográfica global */
+body {
+  font-family: var(--fuente-cuerpo);
+  color: var(--cafe-profundo);
+  background-color: transparent !important;
+  background-image: none !important;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6,
+.entry-copy h2, .about-intro h2, .support-copy h2, .home-ejes h2, .eje-content h2,
+.eje-content>h2, .institution>h2, .nikuma-story h3 {
+  font-family: var(--fuente-titulos);
+  color: var(--cafe-profundo);
+}
+
+/* Enlaces y botones de acción en Terracota */
+a {
+  color: var(--terracota);
+  text-decoration-color: var(--terracota);
+}
+
+.btn, .btn-acento, .play-primary {
+  background: var(--terracota) !important;
+  color: var(--crema) !important;
+  border-color: var(--terracota) !important;
+}
+
+.btn:hover, .btn-acento:hover, .play-primary:hover {
+  background: #803E1C !important;
+  color: #FFF8EE !important;
+}
+
+.text-link {
+  color: var(--terracota) !important;
+}
+
+/* Tarjetas y superficies en Verde niebla */
+.learning-activity, .entry-care, .playground, .story-ending, .tree-study, .index-disclosure, .provenance {
+  background: var(--verde-niebla) !important;
+  color: var(--cafe-profundo) !important;
+  border-color: #CAD5BD !important;
+}
+
+.aviso {
+  background: #EAE6D6 !important;
+  border-color: #C6CDB9 !important;
+  color: var(--cafe-profundo) !important;
+}
+
+/* Header y Nav integrados */
+.app-header {
+  background: rgba(245, 239, 227, 0.94) !important;
+  border-color: #D3DCB8 !important;
+  backdrop-filter: blur(8px);
+}
+
+.app-nav {
+  background: rgba(245, 239, 227, 0.96) !important;
+  border-color: #D0D8BF !important;
+  backdrop-filter: blur(10px);
+}
+
+.nav-item.activo {
+  background: var(--verde-niebla) !important;
+  color: var(--cafe-profundo) !important;
+}
+
+.nav-item.activo::after {
+  background: var(--verde-musgo) !important;
+}
+
+/* 1. Fondo fijo con desplazamiento (scroll) */
+.app-bg-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  background-image: url('/assets/img/fondo-principal.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -10;
+  pointer-events: none;
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+}
+
+/* Capa de velo semitransparente para preservar la legibilidad y contraste del texto */
+.app-bg-fixed::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(245, 239, 227, 0.48);
+  pointer-events: none;
+}
+
 html {
+  background-color: var(--crema);
   scroll-behavior: smooth;
 }
 
@@ -24,4 +160,116 @@ img {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+/* 3. Estilos de recuadros cuadrados individuales de subtemas */
+.subtema-square {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 12px rgba(59, 42, 30, 0.08);
+}
+
+.subtema-square:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(59, 42, 30, 0.14);
+}
+
+.subtema-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.journey-menu > a {
+  display: grid !important;
+  grid-template-columns: auto 1fr 24px !important;
+  align-items: center !important;
+  gap: 18px !important;
+}
+
+/* 4. Estilos de botones de ejes en Verde niebla con íconos de un solo trazo */
+.ejes-nav {
+  display: grid !important;
+  grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+  gap: 8px !important;
+  margin: 20px 0 28px !important;
+}
+
+.eje-card-btn {
+  background: var(--verde-niebla) !important;
+  color: var(--cafe-profundo) !important;
+  border: 1px solid #C0CEB1 !important;
+  border-radius: 18px !important;
+  padding: 12px 6px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  gap: 6px !important;
+  min-height: 88px !important;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(59, 42, 30, 0.05) !important;
+}
+
+.eje-card-btn:hover {
+  background: #D3DFCA !important;
+  border-color: var(--verde-musgo) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(59, 42, 30, 0.1) !important;
+}
+
+.eje-card-btn[aria-pressed="true"] {
+  background: var(--verde-musgo) !important;
+  color: var(--crema) !important;
+  border-color: var(--verde-musgo) !important;
+  box-shadow: 0 6px 18px rgba(79, 107, 58, 0.3) !important;
+}
+
+.eje-card-btn[aria-pressed="true"] .eje-icon-wrap {
+  color: var(--crema) !important;
+}
+
+.eje-icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--verde-musgo);
+  transition: color 0.2s ease;
+}
+
+.eje-card-meta {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  opacity: 0.75;
+}
+
+.eje-card-label {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+@media (max-width: 540px) {
+  .ejes-nav {
+    gap: 4px !important;
+  }
+  .eje-card-btn {
+    padding: 8px 2px !important;
+    min-height: 76px !important;
+    border-radius: 14px !important;
+  }
+  .eje-card-btn .eje-icon-wrap svg {
+    width: 24px;
+    height: 24px;
+  }
+  .eje-card-meta {
+    font-size: 8px;
+    letter-spacing: 0.05em;
+  }
+  .eje-card-label {
+    font-size: 10.5px;
+  }
 }

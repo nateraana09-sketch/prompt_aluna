@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Apoyo · Prototipo de bienestar',
+  title: 'Apoyo · El territorio vivo · Psicoeducación Intercultural',
   description: 'Redes de cuidado, teleorientación en salud mental y enlaces de bienestar institucional.'
 };
 

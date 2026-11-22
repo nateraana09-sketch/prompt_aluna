@@ -1,20 +1,20 @@
 export const metadata = {
-  title: 'Acerca · Prototipo de bienestar',
-  description: 'Acerca del prototipo de bienestar, identidad provisional y propósitos pedagógicos.'
+  title: 'Acerca · El territorio vivo · Psicoeducación Intercultural',
+  description: 'Acerca de El territorio vivo, psicoeducación intercultural y propósitos pedagógicos.'
 };
 
 export default function AcercaPage() {
   return (
     <>
       <section className="about-intro">
-        <p className="eyebrow">Identidad provisional</p>
+        <p className="eyebrow">Psicoeducación Intercultural</p>
         <h2>
-          Prototipo<br />
-          de bienestar
+          El territorio<br />
+          vivo
         </h2>
         <p className="lead">Explorar, comprender y cuidar.</p>
         <p>
-          Experiencia de psicoeducación y orientación intercultural, pensada principalmente para hombres jóvenes Kogui de 18 a 28 años. Acerca experiencias emocionales y posibilidades de cuidado desde contenidos documentados y actividades educativas.
+          Experiencia de psicoeducación y orientación intercultural, pensada principalmente para jóvenes. Acerca experiencias emocionales y posibilidades de cuidado desde contenidos documentados y actividades educativas.
         </p>
       </section>
 
